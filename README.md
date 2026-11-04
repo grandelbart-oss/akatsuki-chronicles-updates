@@ -1,13 +1,29 @@
 # Naruto: Akatsuki Chronicles – Testversionen
 
-Öffentlicher Downloadbereich für Android-Testversionen und Spielupdates.
+Öffentlicher Downloadbereich für die Android-Testfassung.
 
-**Status: Einrichtung läuft. Noch keine neue Basis-APK und kein Spielupdate veröffentlicht.**
+## Installation
 
-## Für Tester
+**[AkatsukiChronicles.apk herunterladen](https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases/download/nac-android-20261104-r1/AkatsukiChronicles.apk)** · rund 1,60 GB
 
-Sobald die erste geprüfte Basis verfügbar ist, erscheint sie unter [Releases](https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases). Eine bestehende Installation bitte nicht deinstallieren, damit die Spielstände erhalten bleiben.
+1. Die APK einmal über die vorhandene App installieren. **Vorher nicht deinstallieren**, damit Spielstände erhalten bleiben.
+2. Die App starten und im Hauptmenü kurz auf die Update-Prüfung warten.
+3. Ein angebotenes Update herunterladen. Anschließend die App vollständig beenden und neu öffnen.
 
-Die neue Basis-App wird spätere passende Spielupdates beim Start anbieten. Große Änderungen an der Android-Grundlage können weiterhin eine neue APK erfordern. Vorhandene Spielstände werden bei Änderungen gesondert geprüft.
+Mit der ersten Aktualisierung zeigt das Hauptmenü **Stand 20261104:1**. Das erste Änderungspaket ist etwa 66 KB groß. Spätere Downloads richten sich nach den tatsächlich geänderten Dateien.
 
-Dieser Bereich enthält die Downloads und Hinweise; der lokale Entwicklungsordner und private Schlüssel werden hier nicht veröffentlicht.
+Für Android die **APK** wählen. `update.pck` und `manifest.json` verwendet die App; sie werden nicht separat installiert. Ein GitHub-Konto ist für die Downloads nicht erforderlich.
+
+## Spätere Änderungen
+
+Passende Spieländerungen kommen über die Update-Funktion. Benötigt eine Änderung eine neue technische Grundlage, bietet die App den Wechsel auf eine neue Basis-App an. Die jeweils passende APK wird hier verlinkt.
+
+Bei fehlender Verbindung bleibt der installierte Stand spielbar. Ein fehlgeschlagener Download ersetzt kein funktionierendes Paket. Vor einer Paketübernahme werden die vorhandenen JSON-Spielstände und Einstellungen lokal gesichert.
+
+## Prüfstand
+
+Die vorgesehenen 23 Projektprüfungen und zusätzliche Update-, Speicher-, Kartenumbau- und gezielte Koop-Proben wurden lokal bestanden. Signatur, anonymer GitHub-Download und Übernahme beim Neustart einer echten Windows-Laufzeitfassung wurden geprüft.
+
+**Der Test auf einem physischen Android-Gerät steht noch aus.** Dies ist keine vollständige Spielabnahme; dokumentierte Inhalts- und Prüfhinterweise bleiben in Bearbeitung. Bei einer Fehlermeldung bitte den Stand aus dem Hauptmenü und den Ablauf nennen.
+
+[Alle veröffentlichten Versionen](https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases)
