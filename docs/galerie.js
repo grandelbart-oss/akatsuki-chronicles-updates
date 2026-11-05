@@ -1,6 +1,7 @@
 (() => {
   "use strict";
   const groups = ["Minispiele", "Training", "Zetsus Reisen", "HD-Sprites", "Bijū & Geister", "Akatsuki", "Kanon-Figuren"];
+  const bijuAnchor = "biju-und-geister";
   const filters = document.querySelector(".gallery-filters");
   const grid = document.querySelector(".gallery-grid");
   const status = document.querySelector("#gallery-status");
@@ -25,15 +26,16 @@
   scaleButton.addEventListener("click", () => setScale(!stage.classList.contains("native")));
   formSelect.addEventListener("change", () => display(index, Number(formSelect.value)));
 
-  function display(number, selectedForm = 0) {
+  function display(number, selectedForm) {
     index = number;
     const item = selection[index];
+    selectedForm ??= item.comparison ? -1 : 0;
     const originals = item.originals || [];
     const original = originals[selectedForm];
     pixels.textContent = "";
     forms.hidden = !originals.length;
     formSelect.replaceChildren(...originals.map((entry, n) => new Option(entry.title, String(n))),
-      new Option("Gesamte Bildtafel", "-1"));
+      new Option(item.comparison ? "Größenvergleich im Kampfmaßstab" : "Gesamte Bildtafel", "-1"));
     formSelect.value = String(selectedForm);
     setScale(false);
     const isFilm = Boolean(item.poster);
@@ -115,10 +117,20 @@
         const button = document.createElement("button");
         button.type = "button";
         button.textContent = group;
+        if (group === "Bijū & Geister") button.id = bijuAnchor;
         button.addEventListener("click", () => choose(group));
         filters.append(button);
       }
+      const showLinkedGroup = () => {
+        const biju = document.getElementById(bijuAnchor);
+        if (biju && location.hash === "#" + bijuAnchor) {
+          choose(biju.textContent);
+          biju.scrollIntoView({block:"start"});
+        }
+      };
       if (filters.firstChild) choose(filters.firstChild.textContent);
+      showLinkedGroup();
+      window.addEventListener("hashchange", showLinkedGroup);
     } catch {
       status.textContent = "Die Galerie konnte nicht geladen werden. Bitte lade die Seite erneut.";
     }
