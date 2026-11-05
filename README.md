@@ -1,5 +1,7 @@
 # Naruto: Akatsuki Chronicles – Testversionen
 
+[Spielseite mit Download, Roadmap und Bug Report](https://grandelbart-oss.github.io/akatsuki-chronicles-updates/)
+
 Öffentlicher Downloadbereich für die Android-Testfassung.
 
 ## Installation
