@@ -6,15 +6,36 @@
   const status = document.querySelector("#gallery-status");
   const viewer = document.querySelector("#viewer");
   const stage = viewer.querySelector(".viewer-stage");
+  const forms = document.querySelector("#viewer-forms");
+  const formSelect = document.querySelector("#viewer-form");
+  const scaleButton = document.querySelector("#viewer-scale");
+  const pixels = document.querySelector("#viewer-pixels");
   const previous = document.querySelector("#viewer-prev");
   const next = document.querySelector("#viewer-next");
   let items = [];
   let selection = [];
   let index = 0;
 
-  function display(number) {
+  function setScale(native) {
+    stage.classList.toggle("native", native);
+    scaleButton.setAttribute("aria-pressed", String(native));
+    scaleButton.textContent = native ? "An Bildschirm anpassen" : "Originalgröße · 1:1";
+    stage.scrollTop = stage.scrollLeft = 0;
+  }
+  scaleButton.addEventListener("click", () => setScale(!stage.classList.contains("native")));
+  formSelect.addEventListener("change", () => display(index, Number(formSelect.value)));
+
+  function display(number, selectedForm = 0) {
     index = number;
     const item = selection[index];
+    const originals = item.originals || [];
+    const original = originals[selectedForm];
+    pixels.textContent = "";
+    forms.hidden = !originals.length;
+    formSelect.replaceChildren(...originals.map((entry, n) => new Option(entry.title, String(n))),
+      new Option("Gesamte Bildtafel", "-1"));
+    formSelect.value = String(selectedForm);
+    setScale(false);
     const isFilm = Boolean(item.poster);
     const media = document.createElement(isFilm ? "video" : "img");
     if (isFilm) {
@@ -23,16 +44,19 @@
       media.poster = item.poster;
       media.preload = "metadata";
     } else {
-      media.alt = item.title;
+      media.alt = original?.title || item.title;
+      media.addEventListener("load", () => {
+        if (stage.contains(media)) pixels.textContent = media.naturalWidth + " × " + media.naturalHeight + " Pixel";
+      }, {once:true});
     }
-    media.src = item.src;
+    media.src = original?.src || item.src;
     media.addEventListener("error", () => {
       stage.textContent = "Die Vorschau konnte nicht geladen werden. Versuche „Original öffnen“.";
     }, {once: true});
     stage.replaceChildren(media);
-    document.querySelector("#viewer-title").textContent = item.title;
+    document.querySelector("#viewer-title").textContent = original?.title || item.title;
     document.querySelector("#viewer-copy").textContent = item.caption;
-    document.querySelector("#viewer-file").href = item.src;
+    document.querySelector("#viewer-file").href = media.src;
     previous.disabled = index === 0;
     next.disabled = index + 1 === selection.length;
     if (!viewer.open) viewer.showModal();
@@ -64,6 +88,11 @@
       const label = document.createElement("strong");
       label.textContent = item.title;
       card.append(frame, label);
+      if (item.originals?.length) {
+        const hint = document.createElement("small");
+        hint.textContent = item.originals.length === 1 ? "Originalbild ansehen" : "Originalbilder ansehen";
+        card.append(hint);
+      }
       card.addEventListener("click", () => display(i));
       grid.append(card);
     });

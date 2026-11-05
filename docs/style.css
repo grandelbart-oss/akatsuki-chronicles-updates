@@ -35,3 +35,9 @@ dialog{width:min(490px,calc(100% - 30px));max-height:calc(100dvh - 24px);padding
 .roadmap details.milestone-group[open]>summary::before{content:"▾"}
 .milestone-group .mile{display:block;margin-left:.8rem;padding:.55rem 0 .85rem}
 .milestone-group .mile p{margin-top:.3rem}
+#viewer-forms{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:0 0 12px;color:var(--muted)}
+#viewer-forms[hidden]{display:none}
+#viewer-forms select,#viewer-scale{font:inherit;color:var(--cream);padding:5px 9px;background:var(--panel);border:1px solid var(--line);max-width:100%}
+.viewer-stage.native{overflow:auto;max-height:65dvh}
+.viewer-stage.native img{max-width:none;max-height:none;width:auto;height:auto}
+.gallery-card small{display:block;margin:-5px 14px 10px;color:var(--gold);font-size:.8rem}

@@ -105,43 +105,205 @@
     "category": "Bijū & Geister",
     "title": "Jinchūriki und ihre Bijū · 1–3",
     "src": "media/figuren/biju-1.webp",
-    "caption": "Die Träger mit den zugehörigen Tiergrafiken der Spielbibliothek. Die Nummer bezeichnet die Anzahl der Schwänze."
+    "caption": "Die Träger mit den zugehörigen Tiergrafiken der Spielbibliothek. Die Nummer bezeichnet die Anzahl der Schwänze.",
+    "originals": [
+      {
+        "title": "Shukaku · Einzelpose",
+        "src": "media/figuren/original-biju_shukaku.webp"
+      },
+      {
+        "title": "Matatabi · Einzelpose",
+        "src": "media/figuren/original-biju_matatabi.webp"
+      },
+      {
+        "title": "Isobu · Einzelpose",
+        "src": "media/figuren/original-biju_isobu.webp"
+      },
+      {
+        "title": "Shukaku · Originalbogen",
+        "src": "media/figuren/original-shukaku-bogen.webp"
+      },
+      {
+        "title": "Matatabi · Originalbogen",
+        "src": "media/figuren/original-matatabi-bogen.webp"
+      },
+      {
+        "title": "Isobu · Originalbogen",
+        "src": "media/figuren/original-isobu-bogen.webp"
+      }
+    ]
   },
   {
     "category": "Bijū & Geister",
     "title": "Jinchūriki und ihre Bijū · 4–6",
     "src": "media/figuren/biju-2.webp",
-    "caption": "Die Träger mit den zugehörigen Tiergrafiken der Spielbibliothek. Die Nummer bezeichnet die Anzahl der Schwänze."
+    "caption": "Die Träger mit den zugehörigen Tiergrafiken der Spielbibliothek. Die Nummer bezeichnet die Anzahl der Schwänze.",
+    "originals": [
+      {
+        "title": "Son Gokū · Einzelpose",
+        "src": "media/figuren/original-biju_son_goku.webp"
+      },
+      {
+        "title": "Kokuō · Einzelpose",
+        "src": "media/figuren/original-biju_kokuo.webp"
+      },
+      {
+        "title": "Saiken · Einzelpose",
+        "src": "media/figuren/original-biju_saiken.webp"
+      },
+      {
+        "title": "Son Gokū · Originalbogen",
+        "src": "media/figuren/original-son_goku-bogen.webp"
+      },
+      {
+        "title": "Kokuō · Originalbogen",
+        "src": "media/figuren/original-kokuo-bogen.webp"
+      },
+      {
+        "title": "Saiken · Originalbogen",
+        "src": "media/figuren/original-saiken-bogen.webp"
+      }
+    ]
   },
   {
     "category": "Bijū & Geister",
     "title": "Jinchūriki und ihre Bijū · 7–9",
     "src": "media/figuren/biju-3.webp",
-    "caption": "Die Träger mit den zugehörigen Tiergrafiken der Spielbibliothek. Die Nummer bezeichnet die Anzahl der Schwänze."
+    "caption": "Die Träger mit den zugehörigen Tiergrafiken der Spielbibliothek. Die Nummer bezeichnet die Anzahl der Schwänze.",
+    "originals": [
+      {
+        "title": "Chōmei · Einzelpose",
+        "src": "media/figuren/original-biju_chomei.webp"
+      },
+      {
+        "title": "Gyūki · Einzelpose",
+        "src": "media/figuren/original-biju_gyuki.webp"
+      },
+      {
+        "title": "Kurama · Einzelpose",
+        "src": "media/figuren/original-biju_kurama.webp"
+      },
+      {
+        "title": "Chōmei · Originalbogen",
+        "src": "media/figuren/original-chomei-bogen.webp"
+      },
+      {
+        "title": "Gyūki · Originalbogen",
+        "src": "media/figuren/original-gyuki-bogen.webp"
+      },
+      {
+        "title": "Kurama · Originalbogen",
+        "src": "media/figuren/original-kurama-bogen.webp"
+      }
+    ]
   },
   {
     "category": "Bijū & Geister",
     "title": "Chakra der Jinchūriki",
     "src": "media/figuren/biju-maentel.webp",
-    "caption": "Zwischenstufen aus der Kampfdarstellung des Spiels: Schutzsand, Mäntel und elementares Chakra. Gerendert mit den hinterlegten Farben und Auren."
+    "caption": "Zwischenstufen aus der Kampfdarstellung des Spiels: Schutzsand, Mäntel und elementares Chakra. Gerendert mit den hinterlegten Farben und Auren.",
+    "originals": [
+      {
+        "title": "Gaara · Sandschild · Kampfansicht",
+        "src": "media/figuren/original-gaara_k2_desert_0.webp"
+      },
+      {
+        "title": "Yugito · Chakra-Mantel · Kampfansicht",
+        "src": "media/figuren/original-yugito_k4_0.webp"
+      },
+      {
+        "title": "Yagura · Isobus Chakra · Kampfansicht",
+        "src": "media/figuren/original-yagura_0.webp"
+      },
+      {
+        "title": "Rōshi · Lavamantel · Kampfansicht",
+        "src": "media/figuren/original-roshi_k5_0.webp"
+      },
+      {
+        "title": "Han · Dampfrüstung · Kampfansicht",
+        "src": "media/figuren/original-han_0.webp"
+      },
+      {
+        "title": "Utakata · Saikens Chakra · Kampfansicht",
+        "src": "media/figuren/original-utakata_0.webp"
+      },
+      {
+        "title": "Fū · Chakra-Mantel · Kampfansicht",
+        "src": "media/figuren/original-fuu_0.webp"
+      },
+      {
+        "title": "Killer B · Chakra-Mantel · Kampfansicht",
+        "src": "media/figuren/original-killer_b_k8_0.webp"
+      }
+    ]
   },
   {
     "category": "Bijū & Geister",
     "title": "Verwandlungen im Kampf",
     "src": "media/figuren/biju-wechsel.webp",
-    "caption": "Yugitos Katzenhaltung und Narutos Sechsschwanzform haben eigene Kampfbögen. Für die Acht-Schwanz-Phase im Krater greift das Spiel auf den Kurama-Bogen zurück."
+    "caption": "Yugitos Katzenhaltung und Narutos Sechsschwanzform haben eigene Kampfbögen. Für die Acht-Schwanz-Phase im Krater greift das Spiel auf den Kurama-Bogen zurück.",
+    "originals": [
+      {
+        "title": "Yugito · Katzenhaltung",
+        "src": "media/figuren/original-yugito_katze.webp"
+      },
+      {
+        "title": "Naruto · Sechsschwanzform",
+        "src": "media/figuren/original-naruto-sechsschweif.webp"
+      },
+      {
+        "title": "Naruto · Acht-Schwanz-Phase (Kurama-Bogen)",
+        "src": "media/figuren/original-biju_kurama.webp"
+      },
+      {
+        "title": "Gyūki · Schwarze Flammen · Kampfansicht",
+        "src": "media/figuren/original-killer_b_k8_2.webp"
+      },
+      {
+        "title": "Yugito · Matatabis Feuer · Kampfansicht",
+        "src": "media/figuren/original-yugito_k4_1.webp"
+      },
+      {
+        "title": "Kurama · Originalbogen",
+        "src": "media/figuren/original-kurama-bogen.webp"
+      }
+    ]
   },
   {
     "category": "Bijū & Geister",
     "title": "Bijūdama im Krater",
     "src": "media/figuren/biju-sechs.webp",
-    "caption": "Narutos Sechsschwanzform im Kampf. Spielaufnahme beim Einschlag der Bijūdama."
+    "caption": "Narutos Sechsschwanzform im Kampf. Spielaufnahme beim Einschlag der Bijūdama.",
+    "originals": [
+      {
+        "title": "Bijūdama · Spielaufnahme",
+        "src": "media/figuren/original-bijuudama.webp"
+      },
+      {
+        "title": "Naruto · Sechsschwanzform",
+        "src": "media/figuren/original-naruto-sechsschweif.webp"
+      }
+    ]
   },
   {
     "category": "Bijū & Geister",
     "title": "Matatabi im Kampf",
     "src": "media/figuren/biju-matatabi.webp",
-    "caption": "Yugitos Verwandlung in den Zweischwänzigen in Kapitel 4."
+    "caption": "Yugitos Verwandlung in den Zweischwänzigen in Kapitel 4.",
+    "originals": [
+      {
+        "title": "Matatabi · Spielaufnahme",
+        "src": "media/figuren/original-matatabi-kampf.webp"
+      },
+      {
+        "title": "Matatabi · Einzelpose",
+        "src": "media/figuren/original-biju_matatabi.webp"
+      },
+      {
+        "title": "Matatabi · Originalbogen",
+        "src": "media/figuren/original-matatabi-bogen.webp"
+      }
+    ]
   },
   {
     "category": "Bijū & Geister",

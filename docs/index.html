@@ -76,6 +76,7 @@
 
 <dialog id="viewer" aria-labelledby="viewer-title">
  <div class="viewer-head"><h2 id="viewer-title"></h2><form method="dialog"><button class="viewer-close" aria-label="Vorschau schließen" autofocus>✕</button></form></div>
+ <div id="viewer-forms" hidden><label for="viewer-form">Bild auswählen</label> <select id="viewer-form"></select> <button id="viewer-scale" type="button" aria-pressed="false">Originalgröße · 1:1</button> <small id="viewer-pixels"></small></div>
  <div class="viewer-stage"></div>
  <p id="viewer-copy"></p>
  <div class="viewer-nav"><button id="viewer-prev" type="button">‹ Zurück</button><a id="viewer-file" target="_blank" rel="noopener">Original öffnen ↗</a><button id="viewer-next" type="button">Weiter ›</button></div>
