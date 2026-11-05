@@ -77,18 +77,26 @@ if (site) {
   const target = document.querySelector("#milestones");
   if (Array.isArray(site.roadmap) && site.roadmap.length) {
     target.replaceChildren();
-    for (const entry of site.roadmap) {
-      const row = document.createElement("article");
-      row.className = "mile";
-      const status = document.createElement("span");
-      status.className = "state";
-      status.textContent = entry.status;
-      const title = document.createElement("h3");
-      title.textContent = entry.title;
-      const body = document.createElement("p");
-      body.textContent = entry.text;
-      row.append(status, title, body);
-      target.append(row);
+    for (const state of ["Spielbar", "Im Test", "Geplant"]) {
+      const entries = site.roadmap.filter(entry => entry.status === state);
+      if (!entries.length) continue;
+      const group = document.createElement("details");
+      group.className = "milestone-group";
+      group.open = state === "Geplant";
+      const label = document.createElement("summary");
+      label.textContent = state + " (" + entries.length + ")";
+      group.append(label);
+      for (const entry of entries) {
+        const row = document.createElement("article");
+        row.className = "mile";
+        const title = document.createElement("h3");
+        title.textContent = entry.title;
+        const body = document.createElement("p");
+        body.textContent = entry.text;
+        row.append(title, body);
+        group.append(row);
+      }
+      target.append(group);
     }
   }
 }

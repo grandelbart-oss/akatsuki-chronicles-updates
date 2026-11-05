@@ -1,0 +1,114 @@
+[
+  {
+    "category": "Minispiele",
+    "title": "Drei Duelle im Untergrund",
+    "caption": "Drei Spielfiguren treten gegen unterschiedliche Gegner im Ring an.",
+    "src": "media/filme/untergrund.mp4",
+    "poster": "media/filme/untergrund.webp"
+  },
+  {
+    "category": "Minispiele",
+    "title": "Sumō auf dem Jahrmarkt",
+    "caption": "Annäherung, Schulterkontakt und Schieben mit verschiedenen Spielerfiguren.",
+    "src": "media/filme/sumo.mp4",
+    "poster": "media/filme/sumo.webp"
+  },
+  {
+    "category": "Minispiele",
+    "title": "Krugwerfen",
+    "caption": "Mit dem Kunai die aufspringenden Krüge treffen.",
+    "src": "media/filme/kruege.mp4",
+    "poster": "media/filme/kruege.webp"
+  },
+  {
+    "category": "Minispiele",
+    "title": "Armdrücken",
+    "caption": "Druck aufbauen, loslassen und die Hand des Gegners über den Tisch drücken.",
+    "src": "media/filme/arm.mp4",
+    "poster": "media/filme/arm.webp"
+  },
+  {
+    "category": "Minispiele",
+    "title": "Wettessen",
+    "caption": "Am Essstand zwischen den Bissen Zeit zum Schlucken lassen.",
+    "src": "media/filme/essen.mp4",
+    "poster": "media/filme/essen.webp"
+  },
+  {
+    "category": "Minispiele",
+    "title": "Wetttrinken",
+    "caption": "Beim Trinken den Becher rechtzeitig absetzen und Luft holen.",
+    "src": "media/filme/trinken.mp4",
+    "poster": "media/filme/trinken.webp"
+  },
+  {
+    "category": "Minispiele",
+    "title": "Lose ziehen",
+    "caption": "An der Süßwarenbude erst das Probelos öffnen und danach zehn Lose ziehen.",
+    "src": "media/filme/lose.mp4",
+    "poster": "media/filme/lose.webp"
+  },
+  {
+    "category": "Minispiele",
+    "title": "Angeln am See",
+    "caption": "Beim Einholen die Wechsel zwischen Ziehen und Nachgeben beachten.",
+    "src": "media/filme/fischen.mp4",
+    "poster": "media/filme/fischen.webp"
+  },
+  {
+    "category": "Training",
+    "title": "Blattkonzentration",
+    "caption": "Halte das Blatt mit einem gleichmäßigen Chakrafluss an der Stirn.",
+    "src": "media/filme/blatt.mp4",
+    "poster": "media/filme/blatt.webp"
+  },
+  {
+    "category": "Training",
+    "title": "Baumklettern",
+    "caption": "Linker und rechter Fuß wechseln sich beim Aufstieg am Stamm ab.",
+    "src": "media/filme/baum.mp4",
+    "poster": "media/filme/baum.webp"
+  },
+  {
+    "category": "Training",
+    "title": "Wasserlaufen",
+    "caption": "Gegen die Strömung steuern und vom Steg durch die Ringe zum anderen Ufer laufen.",
+    "src": "media/filme/wasser.mp4",
+    "poster": "media/filme/wasser.webp"
+  },
+  {
+    "category": "Training",
+    "title": "Naturumwandlung",
+    "caption": "Fünf Versuche am Chakra-Papier zeigen Feuer, Wind, Blitz, Erde und Wasser. Im eigenen Spiel zählt die gewählte Chakra-Natur.",
+    "src": "media/filme/natur.mp4",
+    "poster": "media/filme/natur.webp"
+  },
+  {
+    "category": "Zetsus Reisen",
+    "title": "Durch Zetsus Erdloch",
+    "caption": "Zetsu bietet Hilfe an. Nach der Zusage reist die Gruppe unter der Erde zum Hilferuf.",
+    "src": "media/filme/erdloch.mp4",
+    "poster": "media/filme/erdloch.webp"
+  },
+  {
+    "category": "Zetsus Reisen",
+    "title": "Zurück zum Ausgangspunkt",
+    "src": "media/filme/rueckfahrt.mp4",
+    "poster": "media/filme/rueckfahrt.webp",
+    "caption": "Nach dem Hilferuf bietet Zetsu die Rückkehr an. Die Spielfigur und Kisame steigen durch das Erdloch zurück ins Grasland."
+  },
+  {
+    "category": "Akatsuki",
+    "title": "Acht Akatsuki in Bewegung",
+    "src": "media/filme/akatsuki-gehrunde.mp4",
+    "poster": "media/filme/akatsuki-gehrunde.webp",
+    "caption": "Itachi, Kisame, Deidara, Sasori, Hidan, Kakuzu, Tobi und Zetsu beim Gehen aus acht Richtungen."
+  },
+  {
+    "category": "HD-Sprites",
+    "title": "Spielfiguren im Stilvergleich",
+    "src": "media/filme/spieler-vergleich.mp4",
+    "poster": "media/filme/spieler-vergleich.webp",
+    "caption": "Original und neu gezeichnete Fassung nebeneinander: Gehen, Rennen und Angreifen bei drei Spieler-Aussehen."
+  }
+]

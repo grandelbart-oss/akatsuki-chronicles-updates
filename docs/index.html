@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="./style.css">
 <script defer src="./data.js"></script>
 <script defer src="./ui.js"></script>
+<script defer src="./galerie.js"></script>
 <script defer src="./report.js"></script>
 </head>
 <body>
@@ -27,7 +28,7 @@
 <header class="top">
  <div class="bar wrap">
   <a class="brand" href="#inhalt"><img src="./assets/app.webp" width="38" height="38" alt=""><span>AKATSUKI <b>CHRONICLES</b></span></a>
-  <nav aria-label="Hauptnavigation"><a href="#download">Download</a><a href="#roadmap">Roadmap</a><a href="#bugreport">Bugreport</a></nav>
+  <nav aria-label="Hauptnavigation"><a href="#download">Download</a><a href="#roadmap">Roadmap</a><a href="#vorschau">Vorschau</a><a href="#bugreport">Bugreport</a></nav>
  </div>
 </header>
 
@@ -46,6 +47,13 @@
  <div class="wrap content">
   <section id="roadmap" class="roadmap">
    <details id="roadmap-panel"><summary><span class="road-icon"><svg><use href="#map-icon"/></svg></span><span class="road-title">Roadmap</span><span class="road-desc">Was schon spielbar ist und was als Nächstes kommt.</span><span class="road-toggle" aria-hidden="true"></span></summary><div id="milestones" class="milestones"><p><a href="https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases">Veröffentlichte Spielstände ansehen</a></p></div></details>
+  </section>
+  <section class="panel gallery" id="vorschau" aria-labelledby="gallery-title">
+   <div class="section-head"><span class="rule"></span><h2 id="gallery-title">Bilder &amp; Vorschau</h2></div>
+   <div class="gallery-filters" role="group" aria-label="Auswahl der Spielvorschauen"></div>
+   <div class="gallery-grid"></div>
+   <p id="gallery-status" role="status"></p>
+   <noscript>Aktiviere JavaScript für die Galerie.</noscript>
   </section>
   <section class="install panel" id="installation" aria-labelledby="install-title">
    <div class="section-head"><span class="rule"></span><h2 id="install-title">Installation &amp; Updates</h2></div>
@@ -66,6 +74,12 @@
 </main>
 <footer><div class="wrap footer-inner"><span>Akatsuki Chronicles · Inoffizielles Fanprojekt</span><button type="button" class="footer-btn" id="welcome-open">Hinweise zum Projekt</button><a href="https://naruto-official.com/" target="_blank" rel="noopener">Offizielle Naruto-Seite ↗</a></div></footer>
 
+<dialog id="viewer" aria-labelledby="viewer-title">
+ <div class="viewer-head"><h2 id="viewer-title"></h2><form method="dialog"><button class="viewer-close" aria-label="Vorschau schließen" autofocus>✕</button></form></div>
+ <div class="viewer-stage"></div>
+ <p id="viewer-copy"></p>
+ <div class="viewer-nav"><button id="viewer-prev" type="button">‹ Zurück</button><a id="viewer-file" target="_blank" rel="noopener">Original öffnen ↗</a><button id="viewer-next" type="button">Weiter ›</button></div>
+</dialog>
 <dialog id="welcome" aria-labelledby="welcome-heading" aria-describedby="welcome-copy">
  <div class="paper">
   <div class="dialog-art" aria-hidden="true"><span class="dialog-seal"><img src="./assets/app.webp" width="62" height="62" alt=""></span></div>
