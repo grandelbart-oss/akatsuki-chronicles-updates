@@ -1,5 +1,12 @@
 [
   {
+    "category": "Trailer",
+    "title": "Akatsuki Chronicles · Trailer",
+    "caption": "Bosse mit Phasen, Bijū, Weltkarten, Dörfer, Training und Minispiele in 50 Sekunden.",
+    "src": "media/filme/trailer.mp4",
+    "poster": "media/filme/trailer.webp"
+  },
+  {
     "category": "Minispiele",
     "title": "Drei Duelle im Untergrund",
     "caption": "Drei Spielfiguren treten gegen unterschiedliche Gegner im Ring an.",
