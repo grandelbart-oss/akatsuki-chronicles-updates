@@ -43,18 +43,6 @@
   },
   {
     "category": "Bosskämpfe",
-    "title": "Orochimaru",
-    "src": "media/figuren/szene-k3-orochimaru.webp",
-    "caption": "Kapitel 3: Orochimaru streift seine Hülle ab und kämpft weiter."
-  },
-  {
-    "category": "Bosskämpfe",
-    "title": "Killer B und Gyūki",
-    "src": "media/figuren/szene-biju-gyuki.webp",
-    "caption": "Killer B ruft den Achtschwänzigen in echter Riesengröße."
-  },
-  {
-    "category": "Bosskämpfe",
     "title": "Kabuto im Sennin-Modus",
     "src": "media/figuren/kampf-kabuto-1.webp",
     "caption": "Sasuke steht dir zur Seite, aus Kabutos Umhang gleiten die weißen Schlangen. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
@@ -151,57 +139,75 @@
   },
   {
     "category": "Spielszenen",
+    "title": "Stelzengasse in Konoha",
+    "src": "media/figuren/szene-dorf-konoha-gasse.webp",
+    "caption": "Bewohner mit eigenem Tagesablauf, Klatsch wandert von Dorf zu Dorf."
+  },
+  {
+    "category": "Spielszenen",
     "title": "Sunagakure",
     "src": "media/figuren/szene-dorf-suna.webp",
-    "caption": "Am Tor von Suna. Jedes Dorf hat Bewohner mit eigenem Tagesablauf."
+    "caption": "Gassen aus Lehm unter Sonnensegeln. 14 Dörfer und Städte."
   },
   {
     "category": "Spielszenen",
-    "title": "Kumogakure",
-    "src": "media/figuren/szene-dorf-kumo.webp",
-    "caption": "Kumo-Ninja üben im Unraikyō."
+    "title": "Akademie",
+    "src": "media/figuren/szene-akademie.webp",
+    "caption": "Unterricht in Suna. Jeder Raum ist gemalt und begehbar."
   },
   {
     "category": "Spielszenen",
-    "title": "Kirigakure",
-    "src": "media/figuren/szene-dorf-kiri.webp",
-    "caption": "Das Dorf im Nebel."
+    "title": "Fest in Konoha",
+    "src": "media/figuren/szene-fest-hanabi.webp",
+    "caption": "Laternen, Stände und Feuerwerk nach Eventkalender."
   },
   {
     "category": "Spielszenen",
-    "title": "Iwagakure",
-    "src": "media/figuren/szene-dorf-iwa.webp",
-    "caption": "Das Felsendorf im Land der Erde."
+    "title": "Wanderjahrmarkt",
+    "src": "media/figuren/szene-jahrmarkt-platz.webp",
+    "caption": "Sumō-Ring, Krugwerfen, Wettessen und Losbude ziehen von Dorf zu Dorf."
   },
   {
     "category": "Spielszenen",
-    "title": "Shimogakure",
-    "src": "media/figuren/szene-dorf-shimo.webp",
-    "caption": "Ein Dorf im Schnee."
+    "title": "Losbude",
+    "src": "media/figuren/szene-jahrmarkt-lose.webp",
+    "caption": "Zehn Lose für 100 Ryō. Jede Ziehung ist eine Überraschung."
   },
   {
     "category": "Spielszenen",
-    "title": "Fest im Dorf",
-    "src": "media/figuren/szene-fest-shimo.webp",
-    "caption": "Feste mit Laternen, Losen und Tauschmarken."
+    "title": "Jahrmarkt im Wasserdorf",
+    "src": "media/figuren/szene-jahrmarkt-dorf.webp",
+    "caption": "Der Jahrmarkt macht auch an den Stelzenhäusern Halt."
   },
   {
     "category": "Spielszenen",
-    "title": "Kneipe Hyakuraku",
+    "title": "Eventkalender",
+    "src": "media/figuren/szene-eventkalender.webp",
+    "caption": "Wettangeln, Laternenfest, Turniere: Der Kalender zeigt, was wann wo läuft."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Wettangeln",
+    "src": "media/figuren/szene-wettangeln.webp",
+    "caption": "Wer fängt den längsten Fisch? Mit Fangliste und Preisen."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Izakaya in Konoha",
     "src": "media/figuren/szene-raum-kneipe.webp",
     "caption": "Über 20 Innenräume: Gaststuben, Teehäuser, Läden und Badehäuser."
   },
   {
     "category": "Spielszenen",
-    "title": "Teehaus in Konoha",
-    "src": "media/figuren/szene-raum-teehaus.webp",
-    "caption": "Hinter jeder Theke steht ein Wirt mit eigenem Namen."
+    "title": "Gaststube",
+    "src": "media/figuren/szene-raum-gaststube.webp",
+    "caption": "Hinter jeder Theke steht ein Wirt mit eigenem Namen und Tagesmenü."
   },
   {
     "category": "Spielszenen",
-    "title": "Badehaus",
-    "src": "media/figuren/szene-raum-bad.webp",
-    "caption": "Baden, schlafen, lesen: Dienste statt nur Ware."
+    "title": "Ninjaladen",
+    "src": "media/figuren/szene-raum-ninjaladen.webp",
+    "caption": "Kunai, Briefbomben und Ausrüstung mit Tagespreisen."
   },
   {
     "category": "Spielszenen",
@@ -211,63 +217,81 @@
   },
   {
     "category": "Spielszenen",
-    "title": "Hauptlager der Akatsuki",
-    "src": "media/figuren/szene-lager-einrichtung.webp",
-    "caption": "Kochen an der Feuerstelle, Feldbetten und Übungskämpfe gegen Mitglieder."
+    "title": "Badehaus",
+    "src": "media/figuren/szene-raum-bad.webp",
+    "caption": "Baden, schlafen, lesen: Dienste statt nur Ware."
   },
   {
     "category": "Spielszenen",
-    "title": "Die Versammlung",
-    "src": "media/figuren/szene-story-versammlung.webp",
-    "caption": "Der Anführer gibt den Befehl."
+    "title": "Unterweltmarkt bei Nacht",
+    "src": "media/figuren/szene-nacht-markt.webp",
+    "caption": "Nachts versteigern Hehler seltene Waffen."
   },
   {
     "category": "Spielszenen",
-    "title": "Jagd auf Fū",
-    "src": "media/figuren/szene-story-fuu.webp",
-    "caption": "Fū landet am Becken vor Takigakure."
+    "title": "Untergrund-Turnier",
+    "src": "media/figuren/szene-untergrund-kampf.webp",
+    "caption": "Faustkämpfe gegen Lokalgrößen, auf Zeit und ohne Chakra."
   },
   {
     "category": "Spielszenen",
-    "title": "Kakuzu und Hidan",
-    "src": "media/figuren/szene-kampf-hidan.webp",
-    "caption": "Begleiter kämpfen mit eigenen Techniken an deiner Seite."
+    "title": "Informanten",
+    "src": "media/figuren/szene-untergrund-informanten.webp",
+    "caption": "In Höhlen und Hinterhöfen sitzen Informanten mit Aufträgen."
   },
   {
     "category": "Spielszenen",
-    "title": "Gaaras Sandsarg",
-    "src": "media/figuren/szene-kampf-gaara.webp",
-    "caption": "Über 300 Techniken mit eigenem Bild und Klang."
+    "title": "Kopfgeldjäger",
+    "src": "media/figuren/szene-kampf-kopfgeld.webp",
+    "caption": "Kisame und Hidan kämpfen mit eigenen Techniken an deiner Seite."
   },
   {
     "category": "Spielszenen",
-    "title": "Überfall unterwegs",
-    "src": "media/figuren/szene-k5-ueberfall.webp",
-    "caption": "Wer, warum und wann: Jede Begegnung wird neu ausgewürfelt."
+    "title": "Kampf im Wald",
+    "src": "media/figuren/szene-kampf-wald.webp",
+    "caption": "Über 200 Techniken mit eigenem Bild und Klang."
   },
   {
     "category": "Spielszenen",
-    "title": "Ruinen durchsuchen",
-    "src": "media/figuren/szene-suche-zischen.webp",
-    "caption": "Ein Zischen warnt vor der Giftschlange. Hineingreifen oder lassen?"
+    "title": "Zufallsbegegnung",
+    "src": "media/figuren/szene-kampf-reaktion.webp",
+    "caption": "Wegelagerer greifen an. Wer, warum und wann wird neu ausgewürfelt."
   },
   {
     "category": "Spielszenen",
-    "title": "Geheimgang",
+    "title": "Unterwegs in der Wüste",
+    "src": "media/figuren/szene-zetsu-wueste.webp",
+    "caption": "Die Gruppe zieht gemeinsam durchs Land des Windes."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Hilferuf",
+    "src": "media/figuren/szene-zetsu-hilferuf.webp",
+    "caption": "Der Weiße Zetsu meldet, wenn ein Mitglied in Not ist."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Lauschen im Dampf",
+    "src": "media/figuren/szene-suche-lauschen.webp",
+    "caption": "Im Badehaus belauschst du Gespräche für die Hauptquest."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Versteckte Höhle",
     "src": "media/figuren/szene-geheimgang.webp",
-    "caption": "Gullis, Brunnen und Wasserfälle führen in versteckte Gänge."
+    "caption": "Baumstämme, Brunnen und Wasserfälle führen in versteckte Gänge."
   },
   {
     "category": "Spielszenen",
-    "title": "Jagd auf den ANBU-Hauptmann",
-    "src": "media/figuren/szene-fahndung-jagd.webp",
-    "caption": "Wirst du gesucht, kommst du nur mit Maske ins Dorf."
+    "title": "Jagd zu zweit",
+    "src": "media/figuren/szene-jagd-koop.webp",
+    "caption": "Hirsch und Wildschwein jagen, auch im WLAN-Koop."
   },
   {
     "category": "Spielszenen",
-    "title": "Fliegender Händler",
+    "title": "Karawane",
     "src": "media/figuren/szene-takt-haendler.webp",
-    "caption": "Billig, aber manches ist gefälscht."
+    "caption": "Händler ziehen über die Brücken zwischen den Dörfern."
   },
   {
     "category": "Spielszenen",
@@ -277,39 +301,39 @@
   },
   {
     "category": "Spielszenen",
-    "title": "Gewitter",
-    "src": "media/figuren/szene-wetter-gewitter.webp",
-    "caption": "Gewitter folgt meist auf Regen."
+    "title": "Dünen",
+    "src": "media/figuren/szene-wueste.webp",
+    "caption": "Im Land des Windes wandert der Sand."
   },
   {
     "category": "Spielszenen",
-    "title": "Schnee",
-    "src": "media/figuren/szene-wetter-schnee.webp",
-    "caption": "Im Schneewald wird es kalt."
+    "title": "Waldweg",
+    "src": "media/figuren/szene-wald-weg.webp",
+    "caption": "Das Licht folgt der Spieluhr: Morgen, Mittag, Nacht."
   },
   {
     "category": "Spielszenen",
-    "title": "Schneesturm",
-    "src": "media/figuren/szene-wetter-sturm.webp",
-    "caption": "Ohne warme Kleidung kostet die Kälte Leben."
+    "title": "Strand",
+    "src": "media/figuren/szene-strand.webp",
+    "caption": "Küsten im Land des Feuers mit eigenen Fundstellen."
   },
   {
     "category": "Spielszenen",
-    "title": "Mit der Fähre",
-    "src": "media/figuren/szene-faehre-gewitter.webp",
-    "caption": "Fähren bringen dich übers Meer zu den Inseln."
+    "title": "Aussichtsstelle",
+    "src": "media/figuren/szene-erkundung-stamm.webp",
+    "caption": "Aussichtsstellen zeigen dir die Umgebung von oben."
   },
   {
     "category": "Spielszenen",
-    "title": "Flug mit Deidara",
-    "src": "media/figuren/szene-flug-deidara.webp",
-    "caption": "Auf Deidaras Lehmvogel über die Länder."
-  },
-  {
-    "category": "Spielszenen",
-    "title": "Aussichtsstellen",
+    "title": "Aussicht über Konoha",
     "src": "media/figuren/szene-erkundung-fahrt.webp",
-    "caption": "40 Aussichtspunkte zeigen dir die Umgebung."
+    "caption": "Von weit draußen über das Dorf blicken."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Erkundung",
+    "src": "media/figuren/szene-erkundung-menue.webp",
+    "caption": "Jedes Gebiet hat seine Stellen. Entdecken bringt Lernpunkte."
   },
   {
     "category": "Spielszenen",
@@ -319,27 +343,9 @@
   },
   {
     "category": "Spielszenen",
-    "title": "Ein Schatz am Haken",
+    "title": "Prunktruhe",
     "src": "media/figuren/szene-fang-schatz.webp",
-    "caption": "Beim Angeln beißt nicht nur Fisch an."
-  },
-  {
-    "category": "Spielszenen",
-    "title": "Ausrüstung",
-    "src": "media/figuren/szene-gear-ausruestung.webp",
-    "caption": "Kopf, Mittelteil, Hände, Füße, Waffe, Maske und Mantel."
-  },
-  {
-    "category": "Spielszenen",
-    "title": "Charakterseite",
-    "src": "media/figuren/szene-ui-charakter.webp",
-    "caption": "Werte, Fähigkeiten und Techniken zum Lernen."
-  },
-  {
-    "category": "Spielszenen",
-    "title": "Kleidungsfarbe",
-    "src": "media/figuren/szene-kleidungsfarbe.webp",
-    "caption": "Deine Figur, deine Farben."
+    "caption": "Beim Suchen beißt nicht nur Fisch an: Truhen bringen Schätze."
   },
   {
     "category": "Natur",
