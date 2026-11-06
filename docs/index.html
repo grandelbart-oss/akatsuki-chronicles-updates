@@ -12,6 +12,7 @@
 <script defer src="./data.js"></script>
 <script defer src="./ui.js"></script>
 <script defer src="./galerie.js"></script>
+<script defer src="./karte.js"></script>
 <script defer src="./report.js"></script>
 </head>
 <body>
@@ -28,7 +29,7 @@
 <header class="top">
  <div class="bar wrap">
   <a class="brand" href="#inhalt"><img src="./assets/app.webp" width="38" height="38" alt=""><span>AKATSUKI <b>CHRONICLES</b></span></a>
-  <nav aria-label="Hauptnavigation"><a href="#spiel">Spiel</a><a href="#download">Download</a><a href="#roadmap">Roadmap</a><a href="#vorschau">Vorschau</a><a href="#bugreport">Bugreport</a></nav>
+  <nav aria-label="Hauptnavigation"><a href="#spiel">Spiel</a><a href="#weltkarte">Welt</a><a href="#download">Download</a><a href="#roadmap">Roadmap</a><a href="#vorschau">Vorschau</a><a href="#bugreport">Bugreport</a></nav>
  </div>
 </header>
 
@@ -82,6 +83,12 @@
       <li><b>Kumogakure</b><span>Blitz-Talent, Sturm-Freisetzung, Yotsuki, Wolken-Ringkampf oder Blitz-Genjutsu</span></li>
       <li><b>Iwagakure</b><span>Explosions-Korps, Erd-Talent, Kamizuru, Golem-Schule oder Fels-Pioniere</span></li>
    </ul>
+  </section>
+  <section class="panel worldmap" id="weltkarte" aria-labelledby="map-title">
+   <div class="section-head"><span class="rule"></span><h2 id="map-title">Die Welt</h2></div>
+   <p class="lead">Fünf große Nationen und die kleinen Länder dazwischen, von der Wüste im Westen bis zu den Nebelinseln im Osten. Tippe auf einen Punkt, um zu sehen, welche Orte dort liegen.</p>
+   <div class="map-frame"><img id="map-img" src="./assets/weltkarte_klein.webp" srcset="./assets/weltkarte_klein.webp 1313w, ./assets/weltkarte.webp 2626w" sizes="(max-width: 1200px) 100vw, 1180px" alt="Weltkarte von Akatsuki Chronicles mit allen Ländern und Dörfern" loading="lazy" width="2626" height="1756"><div class="map-pins" id="map-pins"></div></div>
+   <p class="map-note"><span id="map-info">Alle Schauplätze liegen auf dieser Karte.</span> <a href="./assets/weltkarte.webp" target="_blank" rel="noopener">Karte in voller Größe öffnen ↗</a></p>
   </section>
   <section class="panel features" id="features" aria-labelledby="features-title">
    <div class="section-head"><span class="rule"></span><h2 id="features-title">Was dich unterwegs erwartet</h2></div>
