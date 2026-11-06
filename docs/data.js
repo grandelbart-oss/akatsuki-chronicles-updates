@@ -65,6 +65,11 @@ window.NAC_SITE = {
     },
     {
       "status": "Im Test",
+      "title": "Zetsu holt dich ins Hauptlager",
+      "text": "Über den Ring rufst du Zetsu. Er steigt aus dem Boden, bringt dich und deinen Begleiter unter der Erde zurück ins Versteck, und dort bist du wieder geheilt. Einmal am Tag. Wer gerade im Lager ist, bleibt Glückssache."
+    },
+    {
+      "status": "Im Test",
       "title": "Neuer Kampf gegen Kabuto in Kapitel 11",
       "text": "Kabuto kämpft jetzt im Sennin-Modus. Sasuke steht dir zur Seite, doch der Kampf verläuft anders als gedacht. Aus Kabutos Särgen steigen gefallene Akatsuki-Mitglieder. Jede Phase bringt neue Gegner und neue Dialoge. Kommt mit dem nächsten Update."
     },

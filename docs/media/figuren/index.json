@@ -823,5 +823,29 @@
     "title": "Hai · Formen",
     "src": "media/figuren/geist-hai.webp",
     "caption": "Hai. Verschiedene gezeichnete Fassungen aus dem Spielbestand."
+  },
+  {
+    "category": "Feste",
+    "title": "Festplatz in Konoha am Abend",
+    "src": "media/figuren/fest-konoha-abend.webp",
+    "caption": "Laternen Ã¼ber dem Platz, StÃ¤nde und GÃ¤ste nach Feierabend."
+  },
+  {
+    "category": "Feste",
+    "title": "Festplatz in Tanzaku am Abend",
+    "src": "media/figuren/fest-tanzaku-abend.webp",
+    "caption": "Rotes Herbstlaub, Laternen und Feuerwerksfest."
+  },
+  {
+    "category": "Feste",
+    "title": "Laternenfest am Badehaus",
+    "src": "media/figuren/fest-onsen-abend.webp",
+    "caption": "Im Land des HeiÃŸwassers feiert man vor dem Badehaus."
+  },
+  {
+    "category": "Feste",
+    "title": "Festplatz in Kumogakure",
+    "src": "media/figuren/fest-kumo-tag.webp",
+    "caption": "StÃ¤nde hoch in den Bergen, mittags im Land der Blitze."
   }
 ]

@@ -117,5 +117,33 @@
     "src": "media/filme/spieler-vergleich.mp4",
     "poster": "media/filme/spieler-vergleich.webp",
     "caption": "Original und neu gezeichnete Fassung nebeneinander: Gehen, Rennen und Angreifen bei drei Spieler-Aussehen."
+  },
+  {
+    "category": "Feste",
+    "title": "Laternenfest in Konoha",
+    "caption": "Abends fÃ¼llt sich der Festplatz: HÃ¤ndler nach Ladenschluss, GÃ¤ste aus den NachbardÃ¶rfern.",
+    "src": "media/filme/fest-konoha-laternen.mp4",
+    "poster": "media/filme/fest-konoha-laternen.webp"
+  },
+  {
+    "category": "Feste",
+    "title": "Fest in Tanzaku",
+    "caption": "FÃ¼nf StÃ¤nde, GÃ¤ste aus Konoha, Onsen und Ame.",
+    "src": "media/filme/fest-tanzaku-abend.mp4",
+    "poster": "media/filme/fest-tanzaku-abend.webp"
+  },
+  {
+    "category": "Feste",
+    "title": "Feuerwerksfest im Land des Eisens",
+    "caption": "Feuerwerksfest bei Nacht.",
+    "src": "media/filme/fest-eisen-feuerwerk.mp4",
+    "poster": "media/filme/fest-eisen-feuerwerk.webp"
+  },
+  {
+    "category": "Feste",
+    "title": "Festmarkt in Suna",
+    "caption": "TagsÃ¼ber: StÃ¤nde, HÃ¤ndler und Dorfleute.",
+    "src": "media/filme/fest-suna-markt.mp4",
+    "poster": "media/filme/fest-suna-markt.webp"
   }
 ]
