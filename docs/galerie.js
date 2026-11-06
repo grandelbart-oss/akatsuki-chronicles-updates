@@ -1,6 +1,6 @@
 (() => {
   "use strict";
-  const groups = ["Neu", "Minispiele", "Training", "Zetsus Reisen", "HD-Sprites", "Bijū & Geister", "Akatsuki", "Kanon-Figuren"];
+  const groups = ["Bosskämpfe", "Weltkarten", "Spielszenen", "Natur", "Akatsuki", "Kanon-Figuren", "Bijū & Geister", "HD-Sprites", "Zetsus Reisen", "Training", "Minispiele"];
   const bijuAnchor = "biju-und-geister";
   const filters = document.querySelector(".gallery-filters");
   const grid = document.querySelector(".gallery-grid");

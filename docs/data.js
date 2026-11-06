@@ -15,6 +15,11 @@ window.NAC_SITE = {
     },
     {
       "status": "Spielbar",
+      "title": "Bosse mit Phasen und alle neun Bijū",
+      "text": "Bosse verwandeln sich mitten im Kampf: Chakramantel, Helfer, neue Gestalt. Die Jinchūriki werden zu ihren Bijū in echter Riesengröße, Killer B ruft Gyūki, Naruto verliert in Kapitel 9 die Kontrolle."
+    },
+    {
+      "status": "Spielbar",
       "title": "Die Weltkarte und Zetsus Erdloch",
       "text": "Nach dem Sieg über die Patrouille bekommst du auf dem Weg zur Tenchi-Brücke die Weltkarte. Bei einem knappen Hilferuf kann Zetsu dich und deinen Begleiter durchs Erdloch zum Einsatz bringen. Nach dem Kampf entscheidest du, ob du zurückmöchtest."
     },

@@ -1,33 +1,375 @@
 [
   {
-    "category": "Neu",
+    "category": "Bosskämpfe",
+    "title": "Naruto und der Neunschwänzige",
+    "src": "media/figuren/boss-naruto-fuchs.webp",
+    "caption": "Kapitel 9: Naruto verliert die Kontrolle, der Fuchs bricht aus. Jede Phase verändert den Kampf."
+  },
+  {
+    "category": "Bosskämpfe",
+    "title": "Yugito im Chakramantel",
+    "src": "media/figuren/boss-yugito-1.webp",
+    "caption": "Kapitel 4: Yugito Nii hüllt sich in den blauen Mantel des Zweischwänzigen."
+  },
+  {
+    "category": "Bosskämpfe",
+    "title": "Matatabi erwacht",
+    "src": "media/figuren/boss-yugito-2.webp",
+    "caption": "Kapitel 4: Aus Yugito wird Matatabi, die Katze aus blauen Flammen."
+  },
+  {
+    "category": "Bosskämpfe",
+    "title": "Mei Terumī · Lava",
+    "src": "media/figuren/boss-mei-lava.webp",
+    "caption": "Kapitel 10: Die Mizukage wechselt von Lava zu Säure und Nebel."
+  },
+  {
+    "category": "Bosskämpfe",
+    "title": "Mei Terumī · Säure",
+    "src": "media/figuren/boss-mei-saeure.webp",
+    "caption": "Kapitel 10: Ihr Säurenebel frisst sich durch Rüstung und Stein."
+  },
+  {
+    "category": "Bosskämpfe",
+    "title": "Kakashi in Konoha",
+    "src": "media/figuren/boss-kakashi.webp",
+    "caption": "Kapitel 9: An Pains Seite gegen Kakashi und Chōza Akimichi."
+  },
+  {
+    "category": "Bosskämpfe",
+    "title": "Kankurō und Karasu",
+    "src": "media/figuren/boss-kankuro.webp",
+    "caption": "Kapitel 2: Kankurō stellt sich den Akatsuki mit seinen Puppen in den Weg."
+  },
+  {
+    "category": "Bosskämpfe",
+    "title": "Orochimaru",
+    "src": "media/figuren/szene-k3-orochimaru.webp",
+    "caption": "Kapitel 3: Orochimaru streift seine Hülle ab und kämpft weiter."
+  },
+  {
+    "category": "Bosskämpfe",
+    "title": "Killer B und Gyūki",
+    "src": "media/figuren/szene-biju-gyuki.webp",
+    "caption": "Killer B ruft den Achtschwänzigen in echter Riesengröße."
+  },
+  {
+    "category": "Bosskämpfe",
     "title": "Kabuto im Sennin-Modus",
     "src": "media/figuren/kampf-kabuto-1.webp",
     "caption": "Sasuke steht dir zur Seite, aus Kabutos Umhang gleiten die weißen Schlangen. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
   },
   {
-    "category": "Neu",
+    "category": "Bosskämpfe",
     "title": "Die Riesenschlange",
     "src": "media/figuren/kampf-kabuto-2.webp",
     "caption": "Sasuke fällt aus, Itachi kämpft als Edo Tensei an deiner Seite. Aus der Erde windet sich die Riesenschlange. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
   },
   {
-    "category": "Neu",
+    "category": "Bosskämpfe",
     "title": "Noch mehr Särge",
     "src": "media/figuren/kampf-kabuto-3.webp",
     "caption": "Kabuto hat noch mehr Särge vorbereitet. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
   },
   {
-    "category": "Neu",
+    "category": "Bosskämpfe",
     "title": "Kakuzu aus dem Sarg",
     "src": "media/figuren/kampf-kabuto-4.webp",
     "caption": "Kakuzu kehrt als Edo Tensei zurück und fragt zuerst, wer ihn bezahlt. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
   },
   {
-    "category": "Neu",
+    "category": "Bosskämpfe",
     "title": "Deidara mischt mit",
     "src": "media/figuren/kampf-kabuto-5.webp",
     "caption": "Zum Schluss steigt Deidara aus dem Sarg: Jeder Kampf ist Kunst. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
+  },
+  {
+    "category": "Weltkarten",
+    "title": "Land des Feuers · Wälder",
+    "src": "media/figuren/welt-feuer-1.webp",
+    "caption": "Weite Wälder, Gehöfte und Haine zwischen Konoha und der Tenchi-Brücke."
+  },
+  {
+    "category": "Weltkarten",
+    "title": "Land des Feuers · Flusstäler",
+    "src": "media/figuren/welt-feuer-2.webp",
+    "caption": "Felder, Flüsse und versteckte Eingänge."
+  },
+  {
+    "category": "Weltkarten",
+    "title": "Land des Windes · Wüstental",
+    "src": "media/figuren/welt-wind-1.webp",
+    "caption": "Sanddünen, Felsen und Ruinen vor Sunagakure."
+  },
+  {
+    "category": "Weltkarten",
+    "title": "Land des Windes · Tiefe Wüste",
+    "src": "media/figuren/welt-wind-2.webp",
+    "caption": "Wer hier ohne Wasser unterwegs ist, hält nicht lange durch."
+  },
+  {
+    "category": "Weltkarten",
+    "title": "Land der Blitze · Hochgebirge",
+    "src": "media/figuren/welt-blitz-1.webp",
+    "caption": "Steile Pässe und Wolken vor Kumogakure."
+  },
+  {
+    "category": "Weltkarten",
+    "title": "Land der Blitze · Gipfel",
+    "src": "media/figuren/welt-blitz-2.webp",
+    "caption": "Hoch über den Wolken liegen Höhlen und Schreine."
+  },
+  {
+    "category": "Weltkarten",
+    "title": "Land des Wassers · Nebelwald",
+    "src": "media/figuren/welt-wasser-1.webp",
+    "caption": "Erreichbar mit dem Fährmann. Nebel liegt über Sümpfen und Inseln."
+  },
+  {
+    "category": "Weltkarten",
+    "title": "Land des Wassers · Küsten",
+    "src": "media/figuren/welt-wasser-2.webp",
+    "caption": "Inseln, Stege und Buchten rund um Kirigakure."
+  },
+  {
+    "category": "Weltkarten",
+    "title": "Land der Erde · Grenzgebirge",
+    "src": "media/figuren/welt-erde-1.webp",
+    "caption": "Felsige Schluchten auf dem Weg nach Iwagakure."
+  },
+  {
+    "category": "Weltkarten",
+    "title": "Land der Erde · Steinwüste",
+    "src": "media/figuren/welt-erde-2.webp",
+    "caption": "Felsnadeln, Minen und alte Festungen."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Konohas Markt",
+    "src": "media/figuren/szene-dorf-markt.webp",
+    "caption": "Händler mit Öffnungszeiten, Tagespreisen und Ichiraku Ramen."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Sunagakure",
+    "src": "media/figuren/szene-dorf-suna.webp",
+    "caption": "Am Tor von Suna. Jedes Dorf hat Bewohner mit eigenem Tagesablauf."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Kumogakure",
+    "src": "media/figuren/szene-dorf-kumo.webp",
+    "caption": "Kumo-Ninja üben im Unraikyō."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Kirigakure",
+    "src": "media/figuren/szene-dorf-kiri.webp",
+    "caption": "Das Dorf im Nebel."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Iwagakure",
+    "src": "media/figuren/szene-dorf-iwa.webp",
+    "caption": "Das Felsendorf im Land der Erde."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Shimogakure",
+    "src": "media/figuren/szene-dorf-shimo.webp",
+    "caption": "Ein Dorf im Schnee."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Fest im Dorf",
+    "src": "media/figuren/szene-fest-shimo.webp",
+    "caption": "Feste mit Laternen, Losen und Tauschmarken."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Kneipe Hyakuraku",
+    "src": "media/figuren/szene-raum-kneipe.webp",
+    "caption": "Über 20 Innenräume: Gaststuben, Teehäuser, Läden und Badehäuser."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Teehaus in Konoha",
+    "src": "media/figuren/szene-raum-teehaus.webp",
+    "caption": "Hinter jeder Theke steht ein Wirt mit eigenem Namen."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Badehaus",
+    "src": "media/figuren/szene-raum-bad.webp",
+    "caption": "Baden, schlafen, lesen: Dienste statt nur Ware."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Archiv",
+    "src": "media/figuren/szene-raum-archiv.webp",
+    "caption": "Lesen bringt Erfahrung und Wissen."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Hauptlager der Akatsuki",
+    "src": "media/figuren/szene-lager-einrichtung.webp",
+    "caption": "Kochen an der Feuerstelle, Feldbetten und Übungskämpfe gegen Mitglieder."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Die Versammlung",
+    "src": "media/figuren/szene-story-versammlung.webp",
+    "caption": "Der Anführer gibt den Befehl."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Jagd auf Fū",
+    "src": "media/figuren/szene-story-fuu.webp",
+    "caption": "Fū landet am Becken vor Takigakure."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Kakuzu und Hidan",
+    "src": "media/figuren/szene-kampf-hidan.webp",
+    "caption": "Begleiter kämpfen mit eigenen Techniken an deiner Seite."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Gaaras Sandsarg",
+    "src": "media/figuren/szene-kampf-gaara.webp",
+    "caption": "Über 300 Techniken mit eigenem Bild und Klang."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Überfall unterwegs",
+    "src": "media/figuren/szene-k5-ueberfall.webp",
+    "caption": "Wer, warum und wann: Jede Begegnung wird neu ausgewürfelt."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Ruinen durchsuchen",
+    "src": "media/figuren/szene-suche-zischen.webp",
+    "caption": "Ein Zischen warnt vor der Giftschlange. Hineingreifen oder lassen?"
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Geheimgang",
+    "src": "media/figuren/szene-geheimgang.webp",
+    "caption": "Gullis, Brunnen und Wasserfälle führen in versteckte Gänge."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Jagd auf den ANBU-Hauptmann",
+    "src": "media/figuren/szene-fahndung-jagd.webp",
+    "caption": "Wirst du gesucht, kommst du nur mit Maske ins Dorf."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Fliegender Händler",
+    "src": "media/figuren/szene-takt-haendler.webp",
+    "caption": "Billig, aber manches ist gefälscht."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Regen",
+    "src": "media/figuren/szene-wetter-regen.webp",
+    "caption": "Jedes Land hat sein eigenes Wetter."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Gewitter",
+    "src": "media/figuren/szene-wetter-gewitter.webp",
+    "caption": "Gewitter folgt meist auf Regen."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Schnee",
+    "src": "media/figuren/szene-wetter-schnee.webp",
+    "caption": "Im Schneewald wird es kalt."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Schneesturm",
+    "src": "media/figuren/szene-wetter-sturm.webp",
+    "caption": "Ohne warme Kleidung kostet die Kälte Leben."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Mit der Fähre",
+    "src": "media/figuren/szene-faehre-gewitter.webp",
+    "caption": "Fähren bringen dich übers Meer zu den Inseln."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Flug mit Deidara",
+    "src": "media/figuren/szene-flug-deidara.webp",
+    "caption": "Auf Deidaras Lehmvogel über die Länder."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Aussichtsstellen",
+    "src": "media/figuren/szene-erkundung-fahrt.webp",
+    "caption": "40 Aussichtspunkte zeigen dir die Umgebung."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Kochen am Lagerfeuer",
+    "src": "media/figuren/szene-versorgung-feuer.webp",
+    "caption": "42 Rezepte, jedes Gericht stärkt für drei Kämpfe."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Ein Schatz am Haken",
+    "src": "media/figuren/szene-fang-schatz.webp",
+    "caption": "Beim Angeln beißt nicht nur Fisch an."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Ausrüstung",
+    "src": "media/figuren/szene-gear-ausruestung.webp",
+    "caption": "Kopf, Mittelteil, Hände, Füße, Waffe, Maske und Mantel."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Charakterseite",
+    "src": "media/figuren/szene-ui-charakter.webp",
+    "caption": "Werte, Fähigkeiten und Techniken zum Lernen."
+  },
+  {
+    "category": "Spielszenen",
+    "title": "Kleidungsfarbe",
+    "src": "media/figuren/szene-kleidungsfarbe.webp",
+    "caption": "Deine Figur, deine Farben."
+  },
+  {
+    "category": "Natur",
+    "title": "Tiere in Wald und Dorf",
+    "src": "media/figuren/natur-tiere.webp",
+    "caption": "Wild, Raubtiere und Dorftiere. Wölfe und Tiger schleichen heran."
+  },
+  {
+    "category": "Natur",
+    "title": "Kräuter und Beeren",
+    "src": "media/figuren/natur-kraeuter.webp",
+    "caption": "Pflanzen wachsen nach und landen im Kochtopf oder in Heiltränken."
+  },
+  {
+    "category": "Natur",
+    "title": "Pilze",
+    "src": "media/figuren/natur-pilze.webp",
+    "caption": "Vorsicht: Nicht jeder Pilz ist essbar."
+  },
+  {
+    "category": "Natur",
+    "title": "Fische zum Angeln",
+    "src": "media/figuren/natur-fische.webp",
+    "caption": "21 Fischarten in Süß- und Salzwasser."
+  },
+  {
+    "category": "Natur",
+    "title": "Felder der Bauernhöfe",
+    "src": "media/figuren/natur-felder.webp",
+    "caption": "Felder wachsen über die Spieltage, Wachen passen auf."
   },
   {
     "category": "HD-Sprites",
