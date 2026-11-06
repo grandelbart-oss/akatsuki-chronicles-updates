@@ -51,6 +51,46 @@
   },
   {
     "status": "Im Test",
+    "title": "Neuer Kampf gegen Kabuto in Kapitel 11",
+    "text": "Kabuto kämpft jetzt im Sennin-Modus. Sasuke steht dir zur Seite, doch der Kampf verläuft anders als gedacht. Aus Kabutos Särgen steigen gefallene Akatsuki-Mitglieder. Jede Phase bringt neue Gegner und neue Dialoge. Kommt mit dem nächsten Update."
+  },
+  {
+    "status": "Im Test",
+    "title": "Wölfe als vertrauter Geist",
+    "text": "Bei Kakuzu kannst du einen Vertrag mit dem grauen Wolf Kurogiba oder dem weißen Wolf Hyōga schließen. Beide haben eigene Kampfbilder in zehn Formen, von Feuer und Blitz bis Schatten und Chaos. Kommt mit dem nächsten Update."
+  },
+  {
+    "status": "Im Test",
+    "title": "Übrige Fähigkeitspunkte tauschen",
+    "text": "Hast du alle Clan-Techniken und Geist-Stufen gelernt, kannst du übrige Fähigkeitspunkte im Charaktermenü eins zu eins in Lernpunkte für deine Werte tauschen. Kommt mit dem nächsten Update."
+  },
+  {
+    "status": "Im Test",
+    "title": "Gegengift als Minispiel",
+    "text": "Ab 40 % Vergiftung wirkt ein Gegengift nur, wenn du Zeichen sauber mit dem Finger nachmalst. Vibriert das Handy, musst du kurz innehalten. Alle Minispiele und Trainings vibrieren jetzt passend mit. Kommt mit dem nächsten Update."
+  },
+  {
+    "status": "Im Test",
+    "title": "Neue Orte und Funde",
+    "text": "Neu gezeichnet sind der Krater nach Deidaras letzter Explosion, der Bauernhof auf der Anhöhe und der brennende Südstrand im Kampf gegen Jiraiya. Dazu kommen die Kröte Ibuse, eine Prunktruhe am Ende der Dungeons und zwölf Steinfunde in alten Ruinen. Kommt mit dem nächsten Update."
+  },
+  {
+    "status": "Im Test",
+    "title": "Überarbeitete Dialoge und klarere Techniken",
+    "text": "Die Gespräche der Kapitel 9 bis 12 wurden durchgesehen und näher an die Vorlage gebracht. Techniken im Kampf zeigen jetzt immer in Richtung ihres Ziels, auch bei Gegnern. Kommt mit dem nächsten Update."
+  },
+  {
+    "status": "Im Test",
+    "title": "Vibration im Kampf",
+    "text": "Treffer, Blocks und Jutsu sind jetzt spürbar, Genjutsu etwas länger. Im Start- und Pausenmenü stellst du die Vibration auf normal, niedrig oder aus. Minispiele und Trainings vibrieren unabhängig davon immer. Kommt mit dem nächsten Update."
+  },
+  {
+    "status": "Im Test",
+    "title": "Großer Gesamttest",
+    "text": "Bevor das nächste Update erscheint, läuft ein langer Prüfdurchgang durch alle zwölf Kapitel, Menüs, Fähigkeiten, Kämpfe, Feste, Jahrmärkte, Minispiele und das Dorfleben. Danach folgen Koop in allen Kapiteln, Dungeon, Wetter und Angeln."
+  },
+  {
+    "status": "Im Test",
     "title": "Spielgefühl und Ton auf dem Handy",
     "text": "Bei den Handyproben stehen Trainingssteuerung, Angeltempo, Untergrundkämpfe und die Lautstärke von Musik, Treffern und Schritten im Mittelpunkt. Auch die Lesbarkeit der kleinen Figuren und die dauerhaft gespeicherte SD-/HD-Wahl werden geprüft."
   },
@@ -66,12 +106,17 @@
   },
   {
     "status": "Geplant",
+    "title": "Symbole für Fähigkeiten und Gegenstände",
+    "text": "Im Charaktermenü sollen Techniken und Gegenstände eigene gezeichnete Symbole bekommen."
+  },
+  {
+    "status": "Geplant",
     "title": "Weitere Renn- und Kampfanimationen",
     "text": "Für elf Figuren stehen eigene Rennbewegungen aus. Die vorbereiteten Kampfbilder für Hyōbu und Naruto im Sennin-Modus sollen zugeordnet und im Kampf angesehen werden."
   },
   {
     "status": "Geplant",
-    "title": "Dialoge und Kampfbalance",
-    "text": "Die Dialoge der Kapitel 9 bis 12 sollen eine weitere Durchsicht bekommen. Auch die Schwierigkeit von Kabuto und den übrigen Anführern sowie die Wirkung einzelner Kampftechniken werden gezielt überprüft."
+    "title": "Kampfbalance der Anführer",
+    "text": "Die Schwierigkeit der übrigen Anführer und die Wirkung einzelner Kampftechniken werden gezielt überprüft."
   }
 ]

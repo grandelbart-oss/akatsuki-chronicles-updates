@@ -1,5 +1,35 @@
 [
   {
+    "category": "Neu",
+    "title": "Kabuto im Sennin-Modus",
+    "src": "media/figuren/kampf-kabuto-1.webp",
+    "caption": "Sasuke steht dir zur Seite, aus Kabutos Umhang gleiten die weißen Schlangen. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
+  },
+  {
+    "category": "Neu",
+    "title": "Die Riesenschlange",
+    "src": "media/figuren/kampf-kabuto-2.webp",
+    "caption": "Sasuke fällt aus, Itachi kämpft als Edo Tensei an deiner Seite. Aus der Erde windet sich die Riesenschlange. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
+  },
+  {
+    "category": "Neu",
+    "title": "Noch mehr Särge",
+    "src": "media/figuren/kampf-kabuto-3.webp",
+    "caption": "Kabuto hat noch mehr Särge vorbereitet. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
+  },
+  {
+    "category": "Neu",
+    "title": "Kakuzu aus dem Sarg",
+    "src": "media/figuren/kampf-kabuto-4.webp",
+    "caption": "Kakuzu kehrt als Edo Tensei zurück und fragt zuerst, wer ihn bezahlt. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
+  },
+  {
+    "category": "Neu",
+    "title": "Deidara mischt mit",
+    "src": "media/figuren/kampf-kabuto-5.webp",
+    "caption": "Zum Schluss steigt Deidara aus dem Sarg: Jeder Kampf ist Kunst. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
+  },
+  {
     "category": "HD-Sprites",
     "title": "Spielbare Shinobi · 1",
     "src": "media/figuren/spieler-1.webp",
