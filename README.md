@@ -6,7 +6,7 @@
 
 ## Installation
 
-**[AkatsukiChronicles.apk herunterladen (Google Drive)](https://drive.google.com/file/d/1yj7RjT_KB1Ek9DHnps5Rc54-1Ukcu2Yc/view?usp=sharing)** · rund 2,2 GB. Die APK ist größer als die GitHub-Grenze von 2 GB und liegt deshalb bei Google Drive. Meldet Google, dass die Datei zu groß für die Virenprüfung ist: „Trotzdem herunterladen“.
+**[AkatsukiChronicles.apk herunterladen (Google Drive)](https://drive.usercontent.google.com/download?id=1yj7RjT_KB1Ek9DHnps5Rc54-1Ukcu2Yc&export=download&confirm=t)** · rund 2,2 GB. Die APK ist größer als die GitHub-Grenze von 2 GB und liegt deshalb bei Google Drive. Die APK landet im Download-Ordner. Danach in „Dateien/Downloads“ antippen und installieren (ggf. Installation aus dieser Quelle erlauben). Großer Umbau: Wer seine Spielstände behalten will, installiert die neue APK über die alte (nicht vorher deinstallieren).
 
 1. Die APK einmal über die vorhandene App installieren. **Vorher nicht deinstallieren**, damit Spielstände erhalten bleiben.
 2. Die App starten und im Hauptmenü kurz auf die Update-Prüfung warten.
