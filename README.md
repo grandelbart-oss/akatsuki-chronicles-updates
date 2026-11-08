@@ -6,13 +6,13 @@
 
 ## Installation
 
-**[AkatsukiChronicles.apk herunterladen](https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases/download/nac-android-20261104-r1/AkatsukiChronicles.apk)** · rund 1,60 GB
+**[AkatsukiChronicles.apk herunterladen (Google Drive)](https://drive.google.com/file/d/1yj7RjT_KB1Ek9DHnps5Rc54-1Ukcu2Yc/view?usp=sharing)** · rund 2,2 GB. Die APK ist größer als die GitHub-Grenze von 2 GB und liegt deshalb bei Google Drive. Meldet Google, dass die Datei zu groß für die Virenprüfung ist: „Trotzdem herunterladen“.
 
 1. Die APK einmal über die vorhandene App installieren. **Vorher nicht deinstallieren**, damit Spielstände erhalten bleiben.
 2. Die App starten und im Hauptmenü kurz auf die Update-Prüfung warten.
 3. Ein angebotenes Update herunterladen. Anschließend die App vollständig beenden und neu öffnen.
 
-Mit der aktuellen Aktualisierung zeigt das Hauptmenü **Stand 20261104:3**. Das aktuelle Änderungspaket ist rund 82,7 MB groß. Zwischenversionen müssen nicht einzeln installiert werden. Spätere Downloads richten sich nach den tatsächlich geänderten Dateien.
+Mit der aktuellen Basis-App zeigt das Hauptmenü **Stand 20261108-113924:1**. Das aktuelle Änderungspaket ist rund 83 KB groß. Zwischenversionen müssen nicht einzeln installiert werden. Spätere Downloads richten sich nach den tatsächlich geänderten Dateien.
 
 Für Android die **APK** wählen. `update.pck` und `manifest.json` verwendet die App; sie werden nicht separat installiert. Ein GitHub-Konto ist für die Downloads nicht erforderlich.
 
