@@ -46,7 +46,8 @@ def external_apk(path, base):
         return None
     url = data.get("url")
     size = data.get("bytes")
-    if not isinstance(url, str) or not url.startswith("https://drive.google.com/"):
+    # direkter Download (08.11.2026, sam: normaler Download mit Fortschritt statt Drive-Ansicht)
+    if not isinstance(url, str) or not url.startswith(("https://drive.google.com/", "https://drive.usercontent.google.com/")):
         raise ValueError("apk_extern.json: unerwartete Download-Adresse")
     if type(size) is not int or size <= 0:
         raise ValueError("apk_extern.json: Größe fehlt")
