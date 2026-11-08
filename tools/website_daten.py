@@ -2,6 +2,7 @@
 import argparse
 import base64
 import json
+import os
 import re
 from pathlib import Path
 from urllib.request import Request, urlopen
@@ -14,7 +15,12 @@ RELEASES = f"https://github.com/{REPOSITORY}/releases"
 
 
 def fetch_json(url):
-    request = Request(url, headers={"User-Agent": "Akatsuki-Chronicles-Website"})
+    headers = {"User-Agent": "Akatsuki-Chronicles-Website"}
+    token = os.environ.get("GITHUB_TOKEN", "")
+    if token and url.startswith(API):
+        # Nur für die API: GitHub drosselt anonyme Abfragen zeitweise (504, 08.11.2026).
+        headers["Authorization"] = f"Bearer {token}"
+    request = Request(url, headers=headers)
     with urlopen(request, timeout=30) as response:
         return json.load(response)
 
@@ -31,7 +37,23 @@ def asset(release, name):
     return file
 
 
-def published_data():
+def external_apk(path, base):
+    """APK über 2 GB liegt nicht bei GitHub (Dateigrenze), sondern z. B. bei Google Drive."""
+    if path is None or not path.exists():
+        return None
+    data = json.loads(path.read_text(encoding="utf-8-sig"))
+    if data.get("base_id") != base:
+        return None
+    url = data.get("url")
+    size = data.get("bytes")
+    if not isinstance(url, str) or not url.startswith("https://drive.google.com/"):
+        raise ValueError("apk_extern.json: unerwartete Download-Adresse")
+    if type(size) is not int or size <= 0:
+        raise ValueError("apk_extern.json: Größe fehlt")
+    return {"browser_download_url": url, "size": size}
+
+
+def published_data(extern=None):
     latest = fetch_json(f"{API}/latest")
     tag = latest["tag_name"]
     if latest["draft"] or latest["prerelease"]:
@@ -50,7 +72,10 @@ def published_data():
     basis = latest if revision == 1 else fetch_json(f"{API}/tags/{base}-r1")
     if basis["draft"] or basis["prerelease"] or basis["tag_name"] != f"{base}-r1":
         raise ValueError("Die passende Basis-APK ist noch nicht freigegeben")
-    apk = asset(basis, "AkatsukiChronicles.apk")
+    on_github = any(item["name"] == "AkatsukiChronicles.apk" for item in basis["assets"])
+    apk = asset(basis, "AkatsukiChronicles.apk") if on_github else external_apk(extern, base)
+    if apk is None:
+        raise ValueError("Die passende Basis-APK fehlt (weder im Release noch in apk_extern.json)")
     return {
         "apkUrl": apk["browser_download_url"],
         "releaseUrl": latest["html_url"],
@@ -59,6 +84,7 @@ def published_data():
         "revision": revision,
         "apkBytes": apk["size"],
         "patchBytes": patch["size"],
+        "apkExtern": not on_github,
     }
 
 
@@ -82,7 +108,7 @@ def main():
     parser.add_argument("--output", type=Path, default=ROOT / "website/data.js")
     args = parser.parse_args()
     rows = roadmap(args.roadmap)
-    data = published_data()
+    data = published_data(args.roadmap.parent / "apk_extern.json")
     data["roadmap"] = rows
     args.output.parent.mkdir(parents=True, exist_ok=True)
     pending = args.output.with_suffix(".js.tmp")

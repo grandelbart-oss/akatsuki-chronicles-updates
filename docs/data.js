@@ -1,13 +1,44 @@
 // Erzeugt mit tools/website_daten.py
 window.NAC_SITE = {
-  "apkUrl": "https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases/download/nac-android-20261104-r1/AkatsukiChronicles.apk",
-  "releaseUrl": "https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases/tag/nac-android-20261104-r3",
-  "version": "20261104:3",
-  "baseId": "nac-android-20261104",
-  "revision": 3,
-  "apkBytes": 1599217059,
-  "patchBytes": 82698796,
+  "apkUrl": "https://drive.google.com/file/d/1yj7RjT_KB1Ek9DHnps5Rc54-1Ukcu2Yc/view?usp=sharing",
+  "releaseUrl": "https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases/tag/nac-android-20261108-113924-r1",
+  "version": "20261108-113924:1",
+  "baseId": "nac-android-20261108-113924",
+  "revision": 1,
+  "apkBytes": 2219565579,
+  "patchBytes": 83180,
+  "apkExtern": true,
   "roadmap": [
+    {
+      "status": "Spielbar",
+      "title": "Neu: Bijū in Riesengröße",
+      "text": "Im Kampf gegen einen Bijū rückt die Sicht weiter heraus. Jeder Bijū hat seine eigene Größe: Kurama ist gut fünfmal so hoch wie ein Mensch, Chōmei gut viermal."
+    },
+    {
+      "status": "Spielbar",
+      "title": "Neu: Element aktivieren",
+      "text": "Einmal pro Kampf weckst du deine Chakra-Natur. Ein Wirbel aus Feuer, Wasser, Wind, Erde oder Blitz umhüllt deine Figur, beim Rennen zieht er eine Spur, und drei Runden lang triffst du stärker."
+    },
+    {
+      "status": "Spielbar",
+      "title": "Neu: 177 Attacken-Animationen",
+      "text": "Geschosse fliegen und wachsen bis zum Einschlag, Fallen entstehen unter dem Gegner, Wände vor dem Anwender. Jede Technik läuft als ganze Animation in ihrer Größe aus dem Anime."
+    },
+    {
+      "status": "Spielbar",
+      "title": "Neu: Hauptmenü und Minispiele",
+      "text": "Das Hauptmenü wechselt bei jedem Start die Jahreszeit, Itachi und Kisame blicken über das Land. Im neuen Minispiele-Menü spielst du 16 Spiele zum Üben, auf Bestzeit oder zu zweit."
+    },
+    {
+      "status": "Spielbar",
+      "title": "Neu: Weltkarten am Stück",
+      "text": "Alle elf Weltkarten sind jetzt große Panoramen, die du ohne Ladepause durchläufst."
+    },
+    {
+      "status": "Spielbar",
+      "title": "Neu: Orte und Tiere",
+      "text": "56 Orte sind neu gezeichnet. Hirsch, Fuchs, Hirschkuh, weißer Fuchs, Affe und Möwe laufen mit vollen Schritten durch die Welt."
+    },
     {
       "status": "Spielbar",
       "title": "Zwölf Kapitel mit Akatsuki",

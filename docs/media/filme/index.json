@@ -7,6 +7,13 @@
     "poster": "media/filme/trailer.webp"
   },
   {
+    "category": "Trailer",
+    "title": "Akatsuki Chronicles · Trailer 2",
+    "caption": "Akatsuki-Versammlung, Hauptlager, Dorfleben, Märkte, Feste und neue Minispiele in 50 Sekunden.",
+    "src": "media/filme/trailer2.mp4",
+    "poster": "media/filme/trailer2.webp"
+  },
+  {
     "category": "Minispiele",
     "title": "Drei Duelle im Untergrund",
     "caption": "Drei Spielfiguren treten gegen unterschiedliche Gegner im Ring an.",
@@ -145,5 +152,96 @@
     "caption": "TagsÃ¼ber: StÃ¤nde, HÃ¤ndler und Dorfleute.",
     "src": "media/filme/fest-suna-markt.mp4",
     "poster": "media/filme/fest-suna-markt.webp"
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Element aktivieren · Feuer",
+    "caption": "Einmal pro Kampf weckt die Spielfigur ihre Chakra-Natur: Ein Feuerwirbel umhüllt sie, drei Runden lang trifft sie stärker.",
+    "src": "media/filme/neu-element-feuer.mp4",
+    "poster": "media/filme/neu-element-feuer.webp"
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Element aktivieren · Wasser",
+    "caption": "Der Wasserwirbel legt sich um die Figur und zieht beim Rennen eine Spur.",
+    "src": "media/filme/neu-element-wasser.mp4",
+    "poster": "media/filme/neu-element-wasser.webp"
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Element aktivieren · Blitz",
+    "caption": "Blaue Blitze knistern um die Figur, solange das Element wirkt.",
+    "src": "media/filme/neu-element-blitz.mp4",
+    "poster": "media/filme/neu-element-blitz.webp"
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Neue Attacken · Feuer",
+    "caption": "Katon: Karyū Endan und weitere Feuertechniken fliegen und wachsen bis zum Einschlag.",
+    "src": "media/filme/neu-attacken-feuer.mp4",
+    "poster": "media/filme/neu-attacken-feuer.webp"
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Neue Attacken · Wasser und Blitz",
+    "caption": "Suiton: Suiryūdan und Raiton: Rariatto als ganze Animation.",
+    "src": "media/filme/neu-attacken-wasser-blitz.mp4",
+    "poster": "media/filme/neu-attacken-wasser-blitz.webp"
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Neue Attacken · C3 und Kikaichū",
+    "caption": "Deidaras C3 explodiert über dem Gegner, Käferschwärme fliegen zum Ziel.",
+    "src": "media/filme/neu-attacken-c3.mp4",
+    "poster": "media/filme/neu-attacken-c3.webp"
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Neue Attacken · Eis und Kaiten",
+    "caption": "Eisspiegel, Fesseln und der Hakkeshō Kaiten der Hyūga.",
+    "src": "media/filme/neu-attacken-eis-kaiten.mp4",
+    "poster": "media/filme/neu-attacken-eis-kaiten.webp"
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Sonderangriff · Shikamaru",
+    "caption": "Kagemane und Kage-Kubishibari: Der Schatten kriecht zum Gegner.",
+    "src": "media/filme/neu-sonder-shikamaru.mp4",
+    "poster": "media/filme/neu-sonder-shikamaru.webp"
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Sonderangriff · Yamato",
+    "caption": "Mokuton: Daijurin und Suiton: Hahonryū.",
+    "src": "media/filme/neu-sonder-yamato.mp4",
+    "poster": "media/filme/neu-sonder-yamato.webp"
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Sonderangriff · Asuma",
+    "caption": "Katon: Haisekishō und Hien mit den Chakraklingen.",
+    "src": "media/filme/neu-sonder-asuma.mp4",
+    "poster": "media/filme/neu-sonder-asuma.webp"
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Neues Hauptmenü · Herbst",
+    "caption": "Bei jedem Start eine andere Jahreszeit, Itachi und Kisame blicken über das Land.",
+    "src": "media/filme/neu-hauptmenue-herbst.mp4",
+    "poster": "media/filme/neu-hauptmenue-herbst.webp"
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Neues Hauptmenü · Winter",
+    "caption": "Schnee fällt über das Hauptmenü.",
+    "src": "media/filme/neu-hauptmenue-winter.mp4",
+    "poster": "media/filme/neu-hauptmenue-winter.webp"
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Minispiele-Menü",
+    "caption": "16 Minispiele aus Jahrmarkt, Festen, Training und Welt: üben, auf Rekord spielen oder zu zweit.",
+    "src": "media/filme/neu-minispiele-menue.mp4",
+    "poster": "media/filme/neu-minispiele-menue.webp"
   }
 ]

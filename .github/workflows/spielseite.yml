@@ -27,6 +27,8 @@ jobs:
           ref: main
           persist-credentials: false
       - name: Öffentliche APK und Release für die Roadmap lesen
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: python3 tools/website_daten.py --roadmap docs/roadmap.json --output docs/data.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

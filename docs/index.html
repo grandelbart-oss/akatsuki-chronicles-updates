@@ -48,7 +48,20 @@
  <div class="wrap content">
   <section class="panel about" id="spiel" aria-labelledby="about-title">
    <div class="section-head"><span class="rule"></span><h2 id="about-title">Das erwartet dich</h2></div>
-   <video class="trailer" controls playsinline preload="metadata" poster="./media/filme/trailer.webp" src="./media/filme/trailer.mp4" aria-label="Trailer zu Akatsuki Chronicles"></video>
+   <div class="trailer-switch" role="group" aria-label="Trailer wählen"><button type="button" aria-pressed="true" data-src="./media/filme/trailer.mp4" data-poster="./media/filme/trailer.webp" data-label="Trailer 1 zu Akatsuki Chronicles">1</button><button type="button" aria-pressed="false" data-src="./media/filme/trailer2.mp4" data-poster="./media/filme/trailer2.webp" data-label="Trailer 2 zu Akatsuki Chronicles">2</button></div>
+   <video class="trailer" controls playsinline preload="metadata" poster="./media/filme/trailer.webp" src="./media/filme/trailer.mp4" aria-label="Trailer 1 zu Akatsuki Chronicles"></video>
+   <script>
+// Trailer-Umschalter: Knopf 1 / 2 über dem Trailer. Der gewählte Knopf leuchtet, der andere ist ausgegraut.
+(function(){
+  var v=document.querySelector('video.trailer'), bar=document.querySelector('.trailer-switch');
+  if(!v||!bar)return;
+  bar.addEventListener('click',function(e){
+    var b=e.target.closest('button[data-src]'); if(!b||b.getAttribute('aria-pressed')==='true')return;
+    bar.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+    v.pause(); v.poster=b.dataset.poster; v.src=b.dataset.src; v.setAttribute('aria-label',b.dataset.label); v.load();
+  });
+})();
+   </script>
    <p class="lead">Ein Story-Rollenspiel fürs Handy, erzählt aus Sicht der Akatsuki. Du erwachst verletzt in einer Höhle, Itachi spricht dich an, und ein elfter Ring wartet auf dich. Von Gaaras Entführung bis zum letzten Ring.</p>
    <div class="facts">
     <div><b>12</b><span>Kapitel und Prolog</span></div>
@@ -81,7 +94,7 @@
       <li><b>Sunagakure</b><span>Puppenspieler, Wind-Talent, Gift-Kunde, Hōki-Familie oder Shakuton-Blutlinie</span></li>
       <li><b>Kirigakure</b><span>Yuki-Überlebende, Hōzuki, Schwertkunst, Hoshigaki, Oinin-Ausbildung oder Seifenblasen-Ninjutsu</span></li>
       <li><b>Kumogakure</b><span>Blitz-Talent, Sturm-Freisetzung, Yotsuki, Wolken-Ringkampf oder Blitz-Genjutsu</span></li>
-      <li><b>Iwagakure</b><span>Explosions-Korps, Erd-Talent, Kamizuru, Golem-Schule oder Fels-Pioniere</span></li>
+      <li><b>Iwagakure</b><span>Explosions-Korps, Erd-Talent, Kamizuru, Fels-Doppelgänger-Schule oder Fels-Pioniere</span></li>
    </ul>
   </section>
   <section class="panel worldmap" id="weltkarte" aria-labelledby="map-title">
@@ -120,9 +133,9 @@
   <section class="install panel" id="installation" aria-labelledby="install-title">
    <div class="section-head"><span class="rule"></span><h2 id="install-title">Installation &amp; Updates</h2></div>
    <div class="guides">
-    <article><span class="guide-mark" aria-hidden="true"><svg><use href="#drop"/></svg></span><h3>Erster Start</h3><p>Lade die Basis-APK oben auf dein Android-Gerät. Öffne sie, bestätige die Installation und starte das Spiel.</p></article>
+    <article><span class="guide-mark" aria-hidden="true"><svg><use href="#drop"/></svg></span><h3>Erster Start</h3><p>Lade die Basis-APK oben auf dein Android-Gerät. Sie liegt bei Google Drive, weil sie größer als 2 GB ist; meldet Google, dass die Datei zu groß für die Virenprüfung ist, tippe auf „Trotzdem herunterladen“. Öffne sie, bestätige die Installation und starte das Spiel.</p></article>
     <article><span class="guide-mark" aria-hidden="true"><svg><use href="#arrow"/></svg></span><h3>Im Spiel aktualisieren</h3><p>Warte im Hauptmenü auf das Update und lade es dort. Schließe die App vollständig und öffne sie erneut. Im Hauptmenü siehst du den aktiven Stand.</p></article>
-    <article><span class="guide-mark" aria-hidden="true"><svg><use href="#map-icon"/></svg></span><h3>Wann die volle APK nötig ist</h3><p>Meldet das Spiel, dass eine neue Basis gebraucht wird, oder hat deine alte App noch keinen Updater, lade oben die aktuelle APK. Installiere sie über die vorhandene App, damit deine Spielstände erhalten bleiben.</p></article>
+    <article><span class="guide-mark" aria-hidden="true"><svg><use href="#map-icon"/></svg></span><h3>Wann die volle APK nötig ist</h3><p>Meldet das Spiel, dass eine neue Basis gebraucht wird, oder hat deine alte App noch keinen Updater, lade oben die aktuelle APK. Installiere sie über die vorhandene App und deinstalliere vorher nicht, damit deine Spielstände erhalten bleiben. Spätere Updates lädt das Spiel selbst im Startmenü.</p></article>
    </div>
   </section>
   <section class="report-panel panel" id="bugreport" aria-labelledby="report-title">

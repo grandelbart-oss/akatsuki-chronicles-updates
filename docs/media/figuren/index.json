@@ -847,5 +847,89 @@
     "title": "Festplatz in Kumogakure",
     "src": "media/figuren/fest-kumo-tag.webp",
     "caption": "StÃ¤nde hoch in den Bergen, mittags im Land der Blitze."
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Neues Hauptmenü",
+    "src": "media/figuren/neu-hauptmenue.webp",
+    "caption": "Fortsetzen, Neues Spiel, Koop und das neue Minispiele-Menü."
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Minispiele-Menü",
+    "src": "media/figuren/neu-minispiele.webp",
+    "caption": "Jahrmarkt-Spiele, Festtagsspiele, Training und Welt mit eigener Bestenliste."
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Weltkarte Feuer am Stück",
+    "src": "media/figuren/neu-welt-feuer.webp",
+    "caption": "Alle elf Weltkarten sind jetzt große Panoramen ohne Ladepause."
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Weltkarte Feuer 2",
+    "src": "media/figuren/neu-welt-feuer-2.webp",
+    "caption": "Wiesen und Klippen im Land des Feuers."
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Weltkarte Wind",
+    "src": "media/figuren/neu-welt-wind.webp",
+    "caption": "Sandsturm auf dem Weg durch das Land des Windes."
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Weltkarte Wasser",
+    "src": "media/figuren/neu-welt-wasser.webp",
+    "caption": "Nebel zieht vom Meer herein."
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Weltkarte Erde",
+    "src": "media/figuren/neu-welt-erde.webp",
+    "caption": "Felsbrücken und Hütten im Land der Erde."
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Weltkarte Blitz",
+    "src": "media/figuren/neu-welt-blitz.webp",
+    "caption": "Steile Pfade im Land der Blitze."
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Neu gezeichnet · Krater",
+    "src": "media/figuren/neu-ort-krater.webp",
+    "caption": "56 Orte sind neu gezeichnet, darunter der Krater."
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Neu gezeichnet · Laternengasse",
+    "src": "media/figuren/neu-ort-laternengasse.webp",
+    "caption": "Nasse Gasse im Laternenlicht."
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Neu gezeichnet · Badehaus",
+    "src": "media/figuren/neu-ort-onsen.webp",
+    "caption": "Ein Badehaus im Land der Heißwasser."
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Neu gezeichnet · Schlangenhalle",
+    "src": "media/figuren/neu-ort-schlangenhalle.webp",
+    "caption": "Orochimarus Halle mit violettem Licht."
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Neu gezeichnet · Prüfungshalle",
+    "src": "media/figuren/neu-ort-pruefungshalle.webp",
+    "caption": "Die steinerne Halle der Prüfung."
+  },
+  {
+    "category": "Neuerungen",
+    "title": "Neu gezeichnet · Akatsuki-Höhle",
+    "src": "media/figuren/neu-ort-akatsuki-hoehle.webp",
+    "caption": "Das Lager der Akatsuki in der großen Höhle."
   }
 ]
