@@ -1,14 +1,14 @@
 // Erzeugt mit tools/website_daten.py
 window.NAC_SITE = {
-  "apkUrl": "https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-android-20261108-113924/AkatsukiChronicles.apk",
-  "releaseUrl": "https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases/tag/nac-android-20261108-113924-r3",
-  "version": "20261108-113924:3",
-  "baseId": "nac-android-20261108-113924",
-  "revision": 3,
-  "apkBytes": 2219565579,
-  "patchBytes": 34924228,
+  "apkUrl": "https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-android-20261110-204351/AkatsukiChronicles.apk",
+  "releaseUrl": "https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases/tag/nac-android-20261110-204351-r1",
+  "version": "20261110-204351:1",
+  "baseId": "nac-android-20261110-204351",
+  "revision": 1,
+  "apkBytes": 2227446051,
+  "patchBytes": 83180,
   "apkExtern": true,
-  "apkSha256": "7eb360e9a1fc7f5f67a5adec55cc6ab84f5976333182c8caa6e1648495cce241",
+  "apkSha256": "5ad521d12f06d8badf95f65756267dedbea5368abeca2a6f5e1b49c9c0ade1df",
   "roadmap": [
     {
       "status": "Spielbar",
