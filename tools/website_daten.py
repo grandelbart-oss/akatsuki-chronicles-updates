@@ -6,6 +6,7 @@ import os
 import re
 from pathlib import Path
 from urllib.request import Request, urlopen
+from urllib.parse import urlsplit
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -47,11 +48,24 @@ def external_apk(path, base):
     url = data.get("url")
     size = data.get("bytes")
     # direkter Download (08.11.2026, sam: normaler Download mit Fortschritt statt Drive-Ansicht)
-    if not isinstance(url, str) or not url.startswith(("https://drive.google.com/", "https://drive.usercontent.google.com/")):
+    if not isinstance(url, str):
+        raise ValueError("apk_extern.json: unerwartete Download-Adresse")
+    parsed = urlsplit(url)
+    direct = parsed.hostname == "akatsuki-download.smxn-vs-lobby.workers.dev"
+    allowed_host = direct or parsed.hostname in {"drive.google.com", "drive.usercontent.google.com"}
+    if (parsed.scheme != "https" or not allowed_host or parsed.username or parsed.password
+            or parsed.port not in (None, 443) or parsed.fragment
+            or (direct and (parsed.path != f"/{base}/AkatsukiChronicles.apk" or parsed.query))):
         raise ValueError("apk_extern.json: unerwartete Download-Adresse")
     if type(size) is not int or size <= 0:
         raise ValueError("apk_extern.json: Größe fehlt")
-    return {"browser_download_url": url, "size": size}
+    digest = data.get("sha256", "")
+    if direct and (not isinstance(digest, str) or not re.fullmatch(r"[0-9a-f]{64}", digest)):
+        raise ValueError("apk_extern.json: SHA-256 fehlt für den Direktdownload")
+    result = {"browser_download_url": url, "size": size}
+    if digest:
+        result["sha256"] = digest
+    return result
 
 
 def published_data(extern=None):
@@ -86,6 +100,7 @@ def published_data(extern=None):
         "apkBytes": apk["size"],
         "patchBytes": patch["size"],
         "apkExtern": not on_github,
+        "apkSha256": apk.get("sha256", ""),
     }
 
 
