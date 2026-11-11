@@ -1,0 +1,77 @@
+name: Spielseite (main)
+on:
+  push:
+    branches: [main]
+    paths: ['docs/**', 'tools/website_daten.py', '.github/workflows/spielseite-main.yml']
+  release:
+    types: [published, edited]
+  workflow_dispatch:
+    inputs:
+      release_route_check:
+        description: Auslöser mit vorhandener öffentlicher Version prüfen (kein neuer Release)
+        type: boolean
+        required: false
+        default: false
+  schedule:
+    - cron: '19 5 * * *'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: spielseite-pages
+  cancel-in-progress: false
+jobs:
+  request-main-refresh:
+    if: (github.event_name == 'release' && !github.event.release.draft && !github.event.release.prerelease) || (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' && inputs.release_route_check)
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
+    steps:
+      - name: Website-Aktualisierung im Hauptzweig anfordern
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const release = context.eventName === 'release'
+              ? context.payload.release
+              : (await github.rest.repos.getLatestRelease({owner: context.repo.owner, repo: context.repo.repo})).data;
+            if (release.draft || release.prerelease) throw new Error('Keine öffentliche stabile Version.');
+            const tag = release.tag_name;
+            if (!/^nac-android-[0-9]{8}(?:-[0-9]{6})?-r[1-9][0-9]*$/.test(tag)) {
+              core.notice('Kein Spielrelease; Website bleibt unverändert.');
+              return;
+            }
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'spielseite-main.yml',
+              ref: 'main'
+            });
+            core.notice(`Release ${tag}: eigener Website-Lauf auf main angefordert. Keine Tag-Bereitstellung.`);
+  deploy:
+    if: github.event_name != 'release' && github.ref == 'refs/heads/main' && !inputs.release_route_check
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Zeit und Quellstand protokollieren
+        run: |
+          date -u '+UTC: %Y-%m-%dT%H:%M:%SZ'
+          TZ=Europe/Berlin date '+Europe/Berlin: %Y-%m-%dT%H:%M:%S%:z'
+          echo "Quelle: $GITHUB_REF / $GITHUB_SHA"
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Öffentliche APK und Release für die Roadmap lesen
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 tools/website_daten.py --roadmap docs/roadmap.json --output docs/data.js
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
