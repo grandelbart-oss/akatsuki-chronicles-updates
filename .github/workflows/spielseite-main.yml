@@ -52,6 +52,11 @@ jobs:
   deploy:
     if: github.event_name != 'release' && github.ref == 'refs/heads/main' && !inputs.release_route_check
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
