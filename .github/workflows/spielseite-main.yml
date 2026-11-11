@@ -70,8 +70,31 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: python3 tools/website_daten.py --roadmap docs/roadmap.json --output docs/data.js
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - id: upload
+        uses: actions/upload-pages-artifact@v3
         with:
           path: docs
+      - name: Hochgeladenes Website-Paket vor Bereitstellung bestätigen
+        uses: actions/github-script@v7
+        env:
+          EXPECTED_ARTIFACT_ID: ${{ steps.upload.outputs.artifact_id }}
+        with:
+          script: |
+            const expected = Number(process.env.EXPECTED_ARTIFACT_ID);
+            if (!Number.isSafeInteger(expected) || expected <= 0) throw new Error('Upload lieferte keine gültige Paket-ID.');
+            for (let attempt = 1; attempt <= 10; attempt++) {
+              const result = await github.rest.actions.listWorkflowRunArtifacts({
+                owner: context.repo.owner, repo: context.repo.repo, run_id: context.runId, per_page: 100
+              });
+              const artifact = result.data.artifacts.find(item => item.id === expected && item.name === 'github-pages');
+              if (artifact && !artifact.expired && artifact.size_in_bytes > 0) {
+                core.info(`Website-Paket ${expected} bestätigt; ${artifact.size_in_bytes} Bytes, Abfrage ${attempt}/10.`);
+                await new Promise(resolve => setTimeout(resolve, 3000));
+                return;
+              }
+              core.info(`Upload-Paket ${expected} noch nicht im Verzeichnis sichtbar, Abfrage ${attempt}/10.`);
+              if (attempt < 10) await new Promise(resolve => setTimeout(resolve, 3000));
+            }
+            throw new Error('Upload-Paket nach begrenzter Warteprüfung nicht sichtbar; keine Bereitstellung.');
       - id: deployment
         uses: actions/deploy-pages@v4
