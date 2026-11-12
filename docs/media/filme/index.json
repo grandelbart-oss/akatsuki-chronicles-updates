@@ -14,6 +14,13 @@
     "poster": "media/filme/trailer2.webp"
   },
   {
+    "category": "Trailer",
+    "title": "Akatsuki Chronicles · Trailer 3",
+    "caption": "Bijū und Bosse in Kapitelreihenfolge, mit Verwandlungen, Beschwörungen und großen Attacken.",
+    "src": "media/filme/trailer3.mp4",
+    "poster": "media/filme/trailer3.webp"
+  },
+  {
     "category": "Minispiele",
     "title": "Drei Duelle im Untergrund",
     "caption": "Drei Spielfiguren treten gegen unterschiedliche Gegner im Ring an.",

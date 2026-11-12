@@ -11,6 +11,11 @@ window.NAC_SITE = {
   "apkSha256": "5ad521d12f06d8badf95f65756267dedbea5368abeca2a6f5e1b49c9c0ade1df",
   "roadmap": [
     {
+      "status": "Im Test",
+      "title": "Weitere Prüfungen und Figurenkorrekturen",
+      "text": "Korrekturen für Gaaras Transport auf dem Lehmvogel, Animationszuordnungen und die Größen von Bijū und Beschwörungen werden für ein späteres Update geprüft. SD und HD behalten ihre eigenständigen Optiken; innerhalb jedes Stils werden Kleidung, Farben und Ausrüstung miteinander verglichen."
+    },
+    {
       "status": "Spielbar",
       "title": "Neu: Bijū in Riesengröße",
       "text": "Im Kampf gegen einen Bijū rückt die Sicht weiter heraus. Jeder Bijū hat seine eigene Größe: Kurama ist gut fünfmal so hoch wie ein Mensch, Chōmei gut viermal."
