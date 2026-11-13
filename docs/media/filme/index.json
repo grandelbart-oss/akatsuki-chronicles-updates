@@ -230,25 +230,81 @@
     "src": "media/filme/neu-sonder-asuma.mp4",
     "poster": "media/filme/neu-sonder-asuma.webp"
   },
-  {
-    "category": "Neuerungen",
-    "title": "Neues Hauptmenü · Herbst",
-    "caption": "Bei jedem Start eine andere Jahreszeit, Itachi und Kisame blicken über das Land.",
-    "src": "media/filme/neu-hauptmenue-herbst.mp4",
-    "poster": "media/filme/neu-hauptmenue-herbst.webp"
-  },
-  {
-    "category": "Neuerungen",
-    "title": "Neues Hauptmenü · Winter",
-    "caption": "Schnee fällt über das Hauptmenü.",
-    "src": "media/filme/neu-hauptmenue-winter.mp4",
-    "poster": "media/filme/neu-hauptmenue-winter.webp"
-  },
-  {
-    "category": "Neuerungen",
-    "title": "Minispiele-Menü",
-    "caption": "16 Minispiele aus Jahrmarkt, Festen, Training und Welt: üben, auf Rekord spielen oder zu zweit.",
-    "src": "media/filme/neu-minispiele-menue.mp4",
-    "poster": "media/filme/neu-minispiele-menue.webp"
-  }
+{
+    "category": "Weltkarten & Bauernhöfe",
+    "title": "Kamerafahrt · Land des Feuers · 1",
+    "caption": "Kontrollierte Kamerafahrt im Spielrenderer über die aktuelle Weltkarte und den Bauernhof, mit bewegtem Wasser an wasserhaltigen Stellen.",
+    "src": "media/filme/kamerafahrt-welt-feuer-1.mp4",
+    "poster": "media/filme/kamerafahrt-welt-feuer-1.webp"
+},
+{
+    "category": "Weltkarten & Bauernhöfe",
+    "title": "Kamerafahrt · Land des Feuers · 2",
+    "caption": "Kontrollierte Kamerafahrt im Spielrenderer über die aktuelle Weltkarte und den Bauernhof, mit bewegtem Wasser an wasserhaltigen Stellen.",
+    "src": "media/filme/kamerafahrt-welt-feuer-2.mp4",
+    "poster": "media/filme/kamerafahrt-welt-feuer-2.webp"
+},
+{
+    "category": "Weltkarten & Bauernhöfe",
+    "title": "Kamerafahrt · Land des Windes · 1",
+    "caption": "Kontrollierte Kamerafahrt im Spielrenderer über die aktuelle Weltkarte und den Bauernhof, mit bewegtem Wasser an wasserhaltigen Stellen.",
+    "src": "media/filme/kamerafahrt-welt-wind-1.mp4",
+    "poster": "media/filme/kamerafahrt-welt-wind-1.webp"
+},
+{
+    "category": "Weltkarten & Bauernhöfe",
+    "title": "Kamerafahrt · Land des Windes · 1 · weitere Ansicht",
+    "caption": "Kontrollierte Kamerafahrt im Spielrenderer über die aktuelle Weltkarte und den Bauernhof, mit bewegtem Wasser an wasserhaltigen Stellen.",
+    "src": "media/filme/kamerafahrt-welt-wind-1-andere.mp4",
+    "poster": "media/filme/kamerafahrt-welt-wind-1-andere.webp"
+},
+{
+    "category": "Weltkarten & Bauernhöfe",
+    "title": "Kamerafahrt · Land des Windes · 2",
+    "caption": "Kontrollierte Kamerafahrt im Spielrenderer über die aktuelle Weltkarte und den Bauernhof, mit bewegtem Wasser an wasserhaltigen Stellen.",
+    "src": "media/filme/kamerafahrt-welt-wind-2.mp4",
+    "poster": "media/filme/kamerafahrt-welt-wind-2.webp"
+},
+{
+    "category": "Weltkarten & Bauernhöfe",
+    "title": "Kamerafahrt · Land der Erde · 1",
+    "caption": "Kontrollierte Kamerafahrt im Spielrenderer über die aktuelle Weltkarte und den Bauernhof, mit bewegtem Wasser an wasserhaltigen Stellen.",
+    "src": "media/filme/kamerafahrt-welt-erde-1.mp4",
+    "poster": "media/filme/kamerafahrt-welt-erde-1.webp"
+},
+{
+    "category": "Weltkarten & Bauernhöfe",
+    "title": "Kamerafahrt · Land der Erde · 2",
+    "caption": "Kontrollierte Kamerafahrt im Spielrenderer über die aktuelle Weltkarte und den Bauernhof, mit bewegtem Wasser an wasserhaltigen Stellen.",
+    "src": "media/filme/kamerafahrt-welt-erde-2.mp4",
+    "poster": "media/filme/kamerafahrt-welt-erde-2.webp"
+},
+{
+    "category": "Weltkarten & Bauernhöfe",
+    "title": "Kamerafahrt · Land der Blitze · 1",
+    "caption": "Kontrollierte Kamerafahrt im Spielrenderer über die aktuelle Weltkarte und den Bauernhof, mit bewegtem Wasser an wasserhaltigen Stellen.",
+    "src": "media/filme/kamerafahrt-welt-blitz-1.mp4",
+    "poster": "media/filme/kamerafahrt-welt-blitz-1.webp"
+},
+{
+    "category": "Weltkarten & Bauernhöfe",
+    "title": "Kamerafahrt · Land der Blitze · 2",
+    "caption": "Kontrollierte Kamerafahrt im Spielrenderer über die aktuelle Weltkarte und den Bauernhof, mit bewegtem Wasser an wasserhaltigen Stellen.",
+    "src": "media/filme/kamerafahrt-welt-blitz-2.mp4",
+    "poster": "media/filme/kamerafahrt-welt-blitz-2.webp"
+},
+{
+    "category": "Weltkarten & Bauernhöfe",
+    "title": "Kamerafahrt · Land des Wassers · 1",
+    "caption": "Kontrollierte Kamerafahrt im Spielrenderer über die aktuelle Weltkarte und den Bauernhof, mit bewegtem Wasser an wasserhaltigen Stellen.",
+    "src": "media/filme/kamerafahrt-welt-wasser-1.mp4",
+    "poster": "media/filme/kamerafahrt-welt-wasser-1.webp"
+},
+{
+    "category": "Weltkarten & Bauernhöfe",
+    "title": "Kamerafahrt · Land des Wassers · 2",
+    "caption": "Kontrollierte Kamerafahrt im Spielrenderer über die aktuelle Weltkarte und den Bauernhof, mit bewegtem Wasser an wasserhaltigen Stellen.",
+    "src": "media/filme/kamerafahrt-welt-wasser-2.mp4",
+    "poster": "media/filme/kamerafahrt-welt-wasser-2.webp"
+}
 ]

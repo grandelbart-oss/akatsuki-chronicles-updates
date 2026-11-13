@@ -1,911 +1,3449 @@
 [
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Naruto und der Neunschwänzige",
+
+
+
     "src": "media/figuren/boss-naruto-fuchs.webp",
+
+
+
     "caption": "Kapitel 9: Naruto verliert die Kontrolle, der Fuchs bricht aus ihm heraus."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Yugito im Chakramantel",
+
+
+
     "src": "media/figuren/boss-yugito-1.webp",
+
+
+
     "caption": "Kapitel 4: Yugito Nii hüllt sich in den blauen Mantel des Zweischwänzigen."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Matatabi erwacht",
+
+
+
     "src": "media/figuren/boss-yugito-2.webp",
+
+
+
     "caption": "Kapitel 4: Aus Yugito wird Matatabi, die Katze aus blauen Flammen."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Killer B und Gyūki",
+
+
+
     "src": "media/figuren/boss-killer-b-gyuki.webp",
+
+
+
     "caption": "Kapitel 8: Killer B ruft den Achtschwänzigen in echter Riesengröße."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Gaaras Sandwall",
+
+
+
     "src": "media/figuren/boss-gaara-sand.webp",
+
+
+
     "caption": "Kapitel 2: Der Sand der Wüste türmt sich zu einer Mauer um Gaara."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Orochimaru",
+
+
+
     "src": "media/figuren/boss-orochimaru.webp",
+
+
+
     "caption": "Kapitel 3: Orochimaru streift seine Hülle ab und kämpft weiter."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Rōshi und Son Gokū",
+
+
+
     "src": "media/figuren/boss-roshi-son.webp",
+
+
+
     "caption": "Kapitel 5: Lava rinnt über Rōshis Arme, dann steht der Vierschwänzige da."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Han und Kokuō",
+
+
+
     "src": "media/figuren/boss-han-kokuo.webp",
+
+
+
     "caption": "Dampf zischt aus Hans Rüstung, der Fünfschwänzige tritt hervor."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Utakata und Saiken",
+
+
+
     "src": "media/figuren/boss-utakata-saiken.webp",
+
+
+
     "caption": "Seifenblasen färben das Chakra blau, die weiße Schnecke erwacht."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Fū und Chōmei",
+
+
+
     "src": "media/figuren/boss-fuu-chomei.webp",
+
+
+
     "caption": "Das Chakra des Siebenschwänzigen bricht als Flügel aus Fūs Rücken."
+
+
+
   },
+
+
+
   {
     "category": "Bosskämpfe",
     "title": "Yagura und Isobu",
     "src": "media/figuren/boss-yagura-isobu.webp",
-    "caption": "Wasser schießt in die Höhe, die Schildkröte mit dem Stachelpanzer taucht auf."
-  },
+    "caption": "Isobu in der aktuellen Schildkrötenform; Aufnahme über die echten Kampf- und Angriffsabläufe."
+},
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Mei Terumī · Lava",
+
+
+
     "src": "media/figuren/boss-mei-lava.webp",
+
+
+
     "caption": "Kapitel 10: Die Mizukage wechselt von Lava zu Säure und Nebel."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Mei Terumī · Säure",
+
+
+
     "src": "media/figuren/boss-mei-saeure.webp",
+
+
+
     "caption": "Kapitel 10: Ihr Säurenebel frisst sich durch Rüstung und Stein."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Kakashi in Konoha",
+
+
+
     "src": "media/figuren/boss-kakashi.webp",
+
+
+
     "caption": "Kapitel 9: An Pains Seite gegen Kakashi und Chōza Akimichi."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Kankurō und Karasu",
+
+
+
     "src": "media/figuren/boss-kankuro.webp",
+
+
+
     "caption": "Kapitel 2: Kankurō stellt sich den Akatsuki mit seinen Puppen in den Weg."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Kabuto im Sennin-Modus",
+
+
+
     "src": "media/figuren/kampf-kabuto-1.webp",
+
+
+
     "caption": "Sasuke steht dir zur Seite, aus Kabutos Umhang gleiten die weißen Schlangen. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Die Riesenschlange",
+
+
+
     "src": "media/figuren/kampf-kabuto-2.webp",
+
+
+
     "caption": "Sasuke fällt aus, Itachi kämpft als Edo Tensei an deiner Seite. Aus der Erde windet sich die Riesenschlange. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Noch mehr Särge",
+
+
+
     "src": "media/figuren/kampf-kabuto-3.webp",
+
+
+
     "caption": "Kabuto hat noch mehr Särge vorbereitet. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Kakuzu aus dem Sarg",
+
+
+
     "src": "media/figuren/kampf-kabuto-4.webp",
+
+
+
     "caption": "Kakuzu kehrt als Edo Tensei zurück und fragt zuerst, wer ihn bezahlt. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bosskämpfe",
+
+
+
     "title": "Deidara mischt mit",
+
+
+
     "src": "media/figuren/kampf-kabuto-5.webp",
+
+
+
     "caption": "Zum Schluss steigt Deidara aus dem Sarg: Jeder Kampf ist Kunst. Neuer Kampf in Kapitel 11, kommt mit dem nächsten Update."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Weltkarten",
+
+
+
     "title": "Land des Feuers · Wälder",
+
+
+
     "src": "media/figuren/welt-feuer-1.webp",
+
+
+
     "caption": "Weite Wälder, Gehöfte und Haine zwischen Konoha und der Tenchi-Brücke."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Weltkarten",
+
+
+
     "title": "Land des Feuers · Flusstäler",
+
+
+
     "src": "media/figuren/welt-feuer-2.webp",
+
+
+
     "caption": "Felder, Flüsse und versteckte Eingänge."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Weltkarten",
+
+
+
     "title": "Land des Windes · Wüstental",
+
+
+
     "src": "media/figuren/welt-wind-1.webp",
+
+
+
     "caption": "Sanddünen, Felsen und Ruinen vor Sunagakure."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Weltkarten",
+
+
+
     "title": "Land des Windes · Tiefe Wüste",
+
+
+
     "src": "media/figuren/welt-wind-2.webp",
+
+
+
     "caption": "Wer hier ohne Wasser unterwegs ist, hält nicht lange durch."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Weltkarten",
+
+
+
     "title": "Land der Blitze · Hochgebirge",
+
+
+
     "src": "media/figuren/welt-blitz-1.webp",
+
+
+
     "caption": "Steile Pässe und Wolken vor Kumogakure."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Weltkarten",
+
+
+
     "title": "Land der Blitze · Gipfel",
+
+
+
     "src": "media/figuren/welt-blitz-2.webp",
+
+
+
     "caption": "Hoch über den Wolken liegen Höhlen und Schreine."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Weltkarten",
+
+
+
     "title": "Land des Wassers · Nebelwald",
+
+
+
     "src": "media/figuren/welt-wasser-1.webp",
+
+
+
     "caption": "Erreichbar mit dem Fährmann. Nebel liegt über Sümpfen und Inseln."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Weltkarten",
+
+
+
     "title": "Land des Wassers · Küsten",
+
+
+
     "src": "media/figuren/welt-wasser-2.webp",
+
+
+
     "caption": "Inseln, Stege und Buchten rund um Kirigakure."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Weltkarten",
+
+
+
     "title": "Land der Erde · Grenzgebirge",
+
+
+
     "src": "media/figuren/welt-erde-1.webp",
+
+
+
     "caption": "Felsige Schluchten auf dem Weg nach Iwagakure."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Weltkarten",
+
+
+
     "title": "Land der Erde · Steinwüste",
+
+
+
     "src": "media/figuren/welt-erde-2.webp",
+
+
+
     "caption": "Felsnadeln, Minen und alte Festungen."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Konohas Markt",
+
+
+
     "src": "media/figuren/szene-dorf-markt.webp",
+
+
+
     "caption": "Händler mit Öffnungszeiten, Tagespreisen und Ichiraku Ramen."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Stelzengasse in Konoha",
+
+
+
     "src": "media/figuren/szene-dorf-konoha-gasse.webp",
+
+
+
     "caption": "Bewohner mit eigenem Tagesablauf, Klatsch wandert von Dorf zu Dorf."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Sunagakure",
+
+
+
     "src": "media/figuren/szene-dorf-suna.webp",
+
+
+
     "caption": "Gassen aus Lehm unter Sonnensegeln. 14 Dörfer und Städte."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Akademie",
+
+
+
     "src": "media/figuren/szene-akademie.webp",
+
+
+
     "caption": "Unterricht in Suna. Jeder Raum ist gemalt und begehbar."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Fest in Konoha",
+
+
+
     "src": "media/figuren/szene-fest-hanabi.webp",
+
+
+
     "caption": "Laternen, Stände und Feuerwerk nach Eventkalender."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Wanderjahrmarkt",
+
+
+
     "src": "media/figuren/szene-jahrmarkt-platz.webp",
+
+
+
     "caption": "Sumō-Ring, Krugwerfen, Wettessen und Losbude ziehen von Dorf zu Dorf."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Losbude",
+
+
+
     "src": "media/figuren/szene-jahrmarkt-lose.webp",
+
+
+
     "caption": "Zehn Lose für 100 Ryō. Jede Ziehung ist eine Überraschung."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Jahrmarkt im Wasserdorf",
+
+
+
     "src": "media/figuren/szene-jahrmarkt-dorf.webp",
+
+
+
     "caption": "Der Jahrmarkt macht auch an den Stelzenhäusern Halt."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Eventkalender",
+
+
+
     "src": "media/figuren/szene-eventkalender.webp",
+
+
+
     "caption": "Wettangeln, Laternenfest, Turniere: Der Kalender zeigt, was wann wo läuft."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Wettangeln",
+
+
+
     "src": "media/figuren/szene-wettangeln.webp",
+
+
+
     "caption": "Wer fängt den längsten Fisch? Mit Fangliste und Preisen."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Izakaya in Konoha",
+
+
+
     "src": "media/figuren/szene-raum-kneipe.webp",
+
+
+
     "caption": "Über 20 Innenräume: Gaststuben, Teehäuser, Läden und Badehäuser."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Gaststube",
+
+
+
     "src": "media/figuren/szene-raum-gaststube.webp",
+
+
+
     "caption": "Hinter jeder Theke steht ein Wirt mit eigenem Namen und Tagesmenü."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Ninjaladen",
+
+
+
     "src": "media/figuren/szene-raum-ninjaladen.webp",
+
+
+
     "caption": "Kunai, Briefbomben und Ausrüstung mit Tagespreisen."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Archiv",
+
+
+
     "src": "media/figuren/szene-raum-archiv.webp",
+
+
+
     "caption": "Lesen bringt Erfahrung und Wissen."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Badehaus",
+
+
+
     "src": "media/figuren/szene-raum-bad.webp",
+
+
+
     "caption": "Baden, schlafen, lesen: Dienste statt nur Ware."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Unterweltmarkt bei Nacht",
+
+
+
     "src": "media/figuren/szene-nacht-markt.webp",
+
+
+
     "caption": "Nachts versteigern Hehler seltene Waffen."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Untergrund-Turnier",
+
+
+
     "src": "media/figuren/szene-untergrund-kampf.webp",
+
+
+
     "caption": "Faustkämpfe gegen Lokalgrößen, auf Zeit und ohne Chakra."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Informanten",
+
+
+
     "src": "media/figuren/szene-untergrund-informanten.webp",
+
+
+
     "caption": "In Höhlen und Hinterhöfen sitzen Informanten mit Aufträgen."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Kopfgeldjäger",
+
+
+
     "src": "media/figuren/szene-kampf-kopfgeld.webp",
+
+
+
     "caption": "Kisame und Hidan kämpfen mit eigenen Techniken an deiner Seite."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Kampf im Wald",
+
+
+
     "src": "media/figuren/szene-kampf-wald.webp",
+
+
+
     "caption": "Über 200 Techniken mit eigenem Bild und Klang."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Zufallsbegegnung",
+
+
+
     "src": "media/figuren/szene-kampf-reaktion.webp",
+
+
+
     "caption": "Wegelagerer greifen an. Wer, warum und wann wird neu ausgewürfelt."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Unterwegs in der Wüste",
+
+
+
     "src": "media/figuren/szene-zetsu-wueste.webp",
+
+
+
     "caption": "Die Gruppe zieht gemeinsam durchs Land des Windes."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Hilferuf",
+
+
+
     "src": "media/figuren/szene-zetsu-hilferuf.webp",
+
+
+
     "caption": "Der Weiße Zetsu meldet, wenn ein Mitglied in Not ist."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Lauschen im Dampf",
+
+
+
     "src": "media/figuren/szene-suche-lauschen.webp",
+
+
+
     "caption": "Im Badehaus belauschst du Gespräche für die Hauptquest."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Versteckte Höhle",
+
+
+
     "src": "media/figuren/szene-geheimgang.webp",
+
+
+
     "caption": "Baumstämme, Brunnen und Wasserfälle führen in versteckte Gänge."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Jagd zu zweit",
+
+
+
     "src": "media/figuren/szene-jagd-koop.webp",
+
+
+
     "caption": "Hirsch und Wildschwein jagen, auch im WLAN-Koop."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Karawane",
+
+
+
     "src": "media/figuren/szene-takt-haendler.webp",
+
+
+
     "caption": "Händler ziehen über die Brücken zwischen den Dörfern."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Regen",
+
+
+
     "src": "media/figuren/szene-wetter-regen.webp",
+
+
+
     "caption": "Jedes Land hat sein eigenes Wetter."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Dünen",
+
+
+
     "src": "media/figuren/szene-wueste.webp",
+
+
+
     "caption": "Im Land des Windes wandert der Sand."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Waldweg",
+
+
+
     "src": "media/figuren/szene-wald-weg.webp",
+
+
+
     "caption": "Das Licht folgt der Spieluhr: Morgen, Mittag, Nacht."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Strand",
+
+
+
     "src": "media/figuren/szene-strand.webp",
+
+
+
     "caption": "Küsten im Land des Feuers mit eigenen Fundstellen."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Aussichtsstelle",
+
+
+
     "src": "media/figuren/szene-erkundung-stamm.webp",
+
+
+
     "caption": "Aussichtsstellen zeigen dir die Umgebung von oben."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Aussicht über Konoha",
+
+
+
     "src": "media/figuren/szene-erkundung-fahrt.webp",
+
+
+
     "caption": "Von weit draußen über das Dorf blicken."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
-    "title": "Erkundung",
-    "src": "media/figuren/szene-erkundung-menue.webp",
-    "caption": "Jedes Gebiet hat seine Stellen. Entdecken bringt Lernpunkte."
-  },
-  {
-    "category": "Spielszenen",
+
+
+
     "title": "Kochen am Lagerfeuer",
+
+
+
     "src": "media/figuren/szene-versorgung-feuer.webp",
+
+
+
     "caption": "42 Rezepte, jedes Gericht stärkt für drei Kämpfe."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Spielszenen",
+
+
+
     "title": "Prunktruhe",
+
+
+
     "src": "media/figuren/szene-fang-schatz.webp",
+
+
+
     "caption": "Beim Suchen beißt nicht nur Fisch an: Truhen bringen Schätze."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Natur",
+
+
+
     "title": "Tiere in Wald und Dorf",
+
+
+
     "src": "media/figuren/natur-tiere.webp",
+
+
+
     "caption": "Wild, Raubtiere und Dorftiere. Wölfe und Tiger schleichen heran."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Natur",
+
+
+
     "title": "Kräuter und Beeren",
+
+
+
     "src": "media/figuren/natur-kraeuter.webp",
+
+
+
     "caption": "Pflanzen wachsen nach und landen im Kochtopf oder in Heiltränken."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Natur",
+
+
+
     "title": "Pilze",
+
+
+
     "src": "media/figuren/natur-pilze.webp",
+
+
+
     "caption": "Vorsicht: Nicht jeder Pilz ist essbar."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Natur",
+
+
+
     "title": "Fische zum Angeln",
+
+
+
     "src": "media/figuren/natur-fische.webp",
+
+
+
     "caption": "21 Fischarten in Süß- und Salzwasser."
+
+
+
   },
+
+
+
   {
-    "category": "Natur",
-    "title": "Felder der Bauernhöfe",
-    "src": "media/figuren/natur-felder.webp",
-    "caption": "Hof vor Konoha: Der Bauer arbeitet morgens auf den neu angelegten Feldern, die Saat wächst über die Spieltage, nachts passen Wachen auf."
-  },
-  {
+
+
+
     "category": "HD-Sprites",
+
+
+
     "title": "Spielbare Shinobi · 1",
+
+
+
     "src": "media/figuren/spieler-1.webp",
+
+
+
     "caption": "Fünf HD-Aussehen der Charakterauswahl. Oben die Weltfigur, darunter dieselbe Figur im Angriff."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "HD-Sprites",
+
+
+
     "title": "Spielbare Shinobi · 2",
+
+
+
     "src": "media/figuren/spieler-2.webp",
+
+
+
     "caption": "Fünf HD-Aussehen der Charakterauswahl. Oben die Weltfigur, darunter dieselbe Figur im Angriff."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "HD-Sprites",
+
+
+
     "title": "Spielbare Shinobi · 3",
+
+
+
     "src": "media/figuren/spieler-3.webp",
+
+
+
     "caption": "Fünf HD-Aussehen der Charakterauswahl. Oben die Weltfigur, darunter dieselbe Figur im Angriff."
+
+
+
   },
+
+
+
   {
     "category": "Akatsuki",
     "title": "Akatsuki",
     "src": "media/figuren/akatsuki.webp",
-    "caption": "Die vier Paare, wie sie in der Spielwelt auftreten."
-  },
+    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
+},
+
+
+
   {
     "category": "Akatsuki",
     "title": "Nagato, Konan und Pains Körper",
     "src": "media/figuren/akatsuki-ame.webp",
-    "caption": "Die sechs Pfade mit beiden Tierpfad-Körpern."
-  },
+    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
+},
+
+
+
   {
     "category": "Akatsuki",
     "title": "Weitere Erscheinungsformen",
     "src": "media/figuren/akatsuki-varianten.webp",
-    "caption": "Hirukos Hülle, Sasoris Puppenkörper, Deidaras verletzte Fassungen und Zetsu-Klone."
-  },
+    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
+},
+
+
+
   {
+
+
+
     "category": "Akatsuki",
+
+
+
     "title": "Taka im Wolkenmantel",
+
+
+
     "src": "media/figuren/taka.webp",
-    "caption": "Sasuke, Suigetsu, Karin und Jūgo auf ihrer Mission für Akatsuki."
+
+
+
+    "caption": "Ausgewählte Originalposen: Sasuke, Karin, Jūgo und Suigetsu."
+
+
+
   },
+
+
+
   {
     "category": "Kanon-Figuren",
     "title": "Die Teams aus Konoha",
     "src": "media/figuren/blatt-1.webp",
-    "caption": "Naruto Uzumaki, Sakura Haruno, Sasuke Uchiha, Sai, Kakashi Hatake, Yamato, Iruka Umino, Konohamaru Sarutobi."
-  },
+    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
+},
+
+
+
   {
     "category": "Kanon-Figuren",
     "title": "Die Teams aus Konoha · Gefährten",
     "src": "media/figuren/blatt-2.webp",
-    "caption": "Shikamaru Nara, Ino Yamanaka, Chōji Akimichi, Asuma Sarutobi, Neji Hyūga, Tenten, Rock Lee, Might Guy."
-  },
+    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
+},
+
+
+
   {
     "category": "Kanon-Figuren",
     "title": "Aufklärung und Lehrmeister",
     "src": "media/figuren/blatt-3.webp",
-    "caption": "Hinata Hyūga, Kiba Inuzuka, Shino Aburame, Ebisu, Izumo Kamizuki, Kotetsu Hagane, Inoichi Yamanaka, Shikaku Nara, Chōza Akimichi, Might Duy."
-  },
+    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
+},
+
+
+
   {
     "category": "Kanon-Figuren",
     "title": "Hokage und Sannin",
     "src": "media/figuren/hokage.webp",
-    "caption": "Hashirama Senju, Tobirama Senju, Hiruzen Sarutobi, Minato Namikaze, Tsunade, Jiraiya, Orochimaru, Shizune."
-  },
+    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
+},
+
+
+
   {
     "category": "Kanon-Figuren",
     "title": "Der Sand und die Nebeldörfer",
     "src": "media/figuren/anker.webp",
-    "caption": "Gaara, Kankurō, Chiyo, Baki, Rasa, Mei Terumī, Chōjūrō, Ao, Gengetsu Hōzuki, Zabuza Momochi."
-  },
+    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
+},
+
+
+
   {
     "category": "Kanon-Figuren",
     "title": "Das Land der Blitze",
     "src": "media/figuren/blitz.webp",
-    "caption": "Killer B, A · Vierter Raikage, Dritter Raikage, Darui, Cee, Mabui, Kinkaku, Ginkaku, A · ein Arm."
-  },
+    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
+},
+
+
+
   {
     "category": "Kanon-Figuren",
     "title": "Stein, Regen und Eisen",
     "src": "media/figuren/erde.webp",
-    "caption": "Ōnoki, Akatsuchi, Kurotsuchi, Hanzō, Mifune, Chiriku, Guren, Dan Katō."
-  },
+    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
+},
+
+
+
   {
     "category": "Kanon-Figuren",
     "title": "Oto und der Untergrund",
     "src": "media/figuren/oto.webp",
-    "caption": "Karin, Suigetsu Hōzuki, Jūgo, Kabuto Yakushi, Kabuto · Schlangenform, Dosu Kinuta, Kin Tsuchi, Zaku Abumi, Kimimaro, Mizuki."
-  },
+    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
+},
+
+
+
   {
     "category": "Kanon-Figuren",
     "title": "Ne, Spitzel und Kontaktleute",
     "src": "media/figuren/ne.webp",
-    "caption": "Danzō Shimura, Fū Yamanaka, Torune Aburame, Yūra, Zangei, Mukade."
-  },
+    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
+},
+
+
+
   {
     "category": "Kanon-Figuren",
     "title": "Bewohner aus der Geschichte",
     "src": "media/figuren/wellen.webp",
-    "caption": "Tazuna, Tsunami, Inari, Teuchi, Ayame."
-  },
+    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
+},
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Jinchūriki und ihre Bijū · 1–3",
+
+
+
     "src": "media/figuren/biju-1.webp",
+
+
+
     "caption": "Träger und Bijū stehen auf gleicher Höhe im Größenvergleich. Über „Bild auswählen“ kannst du auch die Einzelposen und Originalbögen öffnen.",
+
+
+
     "originals": [
+
+
+
       {
+
+
+
         "title": "Shukaku · Einzelpose",
+
+
+
         "src": "media/figuren/original-biju_shukaku.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Matatabi · Einzelpose",
+
+
+
         "src": "media/figuren/original-biju_matatabi.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Isobu · Einzelpose",
+
+
+
         "src": "media/figuren/original-biju_isobu.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Shukaku · Originalbogen",
+
+
+
         "src": "media/figuren/original-shukaku-bogen.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Matatabi · Originalbogen",
+
+
+
         "src": "media/figuren/original-matatabi-bogen.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Isobu · Originalbogen",
+
+
+
         "src": "media/figuren/original-isobu-bogen.webp"
+
+
+
       }
+
+
+
     ],
+
+
+
     "comparison": true
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Jinchūriki und ihre Bijū · 4–6",
+
+
+
     "src": "media/figuren/biju-2.webp",
+
+
+
     "caption": "Träger und Bijū stehen auf gleicher Höhe im Größenvergleich. Über „Bild auswählen“ kannst du auch die Einzelposen und Originalbögen öffnen.",
+
+
+
     "originals": [
+
+
+
       {
+
+
+
         "title": "Son Gokū · Einzelpose",
+
+
+
         "src": "media/figuren/original-biju_son_goku.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Kokuō · Einzelpose",
+
+
+
         "src": "media/figuren/original-biju_kokuo.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Saiken · Einzelpose",
+
+
+
         "src": "media/figuren/original-biju_saiken.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Son Gokū · Originalbogen",
+
+
+
         "src": "media/figuren/original-son_goku-bogen.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Kokuō · Originalbogen",
+
+
+
         "src": "media/figuren/original-kokuo-bogen.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Saiken · Originalbogen",
+
+
+
         "src": "media/figuren/original-saiken-bogen.webp"
+
+
+
       }
+
+
+
     ],
+
+
+
     "comparison": true
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Jinchūriki und ihre Bijū · 7–9",
+
+
+
     "src": "media/figuren/biju-3.webp",
+
+
+
     "caption": "Träger und Bijū stehen auf gleicher Höhe im Größenvergleich. Über „Bild auswählen“ kannst du auch die Einzelposen und Originalbögen öffnen.",
+
+
+
     "originals": [
+
+
+
       {
+
+
+
         "title": "Chōmei · Einzelpose",
+
+
+
         "src": "media/figuren/original-biju_chomei.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Gyūki · Einzelpose",
+
+
+
         "src": "media/figuren/original-biju_gyuki.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Kurama · Einzelpose",
+
+
+
         "src": "media/figuren/original-biju_kurama.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Chōmei · Originalbogen",
+
+
+
         "src": "media/figuren/original-chomei-bogen.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Gyūki · Originalbogen",
+
+
+
         "src": "media/figuren/original-gyuki-bogen.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Kurama · Originalbogen",
+
+
+
         "src": "media/figuren/original-kurama-bogen.webp"
+
+
+
       }
+
+
+
     ],
+
+
+
     "comparison": true
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Chakra der Jinchūriki",
+
+
+
     "src": "media/figuren/biju-maentel.webp",
+
+
+
     "caption": "Zwischenstufen aus der Kampfdarstellung des Spiels: Schutzsand, Mäntel und elementares Chakra. Gerendert mit den hinterlegten Farben und Auren.",
+
+
+
     "originals": [
+
+
+
       {
+
+
+
         "title": "Gaara · Sandschild · Kampfansicht",
+
+
+
         "src": "media/figuren/original-gaara_k2_desert_0.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Yugito · Chakra-Mantel · Kampfansicht",
+
+
+
         "src": "media/figuren/original-yugito_k4_0.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Yagura · Isobus Chakra · Kampfansicht",
+
+
+
         "src": "media/figuren/original-yagura_0.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Rōshi · Lavamantel · Kampfansicht",
+
+
+
         "src": "media/figuren/original-roshi_k5_0.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Han · Dampfrüstung · Kampfansicht",
+
+
+
         "src": "media/figuren/original-han_0.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Utakata · Saikens Chakra · Kampfansicht",
+
+
+
         "src": "media/figuren/original-utakata_0.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Fū · Chakra-Mantel · Kampfansicht",
+
+
+
         "src": "media/figuren/original-fuu_0.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Killer B · Chakra-Mantel · Kampfansicht",
+
+
+
         "src": "media/figuren/original-killer_b_k8_0.webp"
+
+
+
       }
+
+
+
     ]
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Verwandlungen im Kampf",
+
+
+
     "src": "media/figuren/biju-wechsel.webp",
+
+
+
     "caption": "Yugitos Katzenhaltung und Narutos Sechsschwanzform haben eigene Kampfbögen. Für die Acht-Schwanz-Phase im Krater greift das Spiel auf den Kurama-Bogen zurück.",
+
+
+
     "originals": [
+
+
+
       {
+
+
+
         "title": "Yugito · Katzenhaltung",
+
+
+
         "src": "media/figuren/original-yugito_katze.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Naruto · Sechsschwanzform",
+
+
+
         "src": "media/figuren/original-naruto-sechsschweif.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Naruto · Acht-Schwanz-Phase (Kurama-Bogen)",
+
+
+
         "src": "media/figuren/original-biju_kurama.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Gyūki · Schwarze Flammen · Kampfansicht",
+
+
+
         "src": "media/figuren/original-killer_b_k8_2.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Yugito · Matatabis Feuer · Kampfansicht",
+
+
+
         "src": "media/figuren/original-yugito_k4_1.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Kurama · Originalbogen",
+
+
+
         "src": "media/figuren/original-kurama-bogen.webp"
+
+
+
       }
+
+
+
     ]
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Bijūdama im Krater",
+
+
+
     "src": "media/figuren/biju-sechs.webp",
+
+
+
     "caption": "Narutos Sechsschwanzform im Kampf. Spielaufnahme beim Einschlag der Bijūdama.",
+
+
+
     "originals": [
+
+
+
       {
+
+
+
         "title": "Bijūdama · Spielaufnahme",
+
+
+
         "src": "media/figuren/original-bijuudama.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Naruto · Sechsschwanzform",
+
+
+
         "src": "media/figuren/original-naruto-sechsschweif.webp"
+
+
+
       }
+
+
+
     ]
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Matatabi im Kampf",
+
+
+
     "src": "media/figuren/biju-matatabi.webp",
+
+
+
     "caption": "Yugitos Vollform im Kapitel-4-Kampf mit Kakuzu und Hidan. In dieser Aufnahme ist Matatabi rund 3,4-mal so hoch wie die Spielfigur.",
+
+
+
     "originals": [
+
+
+
       {
+
+
+
         "title": "Matatabi · Spielaufnahme",
+
+
+
         "src": "media/figuren/original-matatabi-kampf.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Matatabi · Einzelpose",
+
+
+
         "src": "media/figuren/original-biju_matatabi.webp"
+
+
+
       },
+
+
+
       {
+
+
+
         "title": "Matatabi · Originalbogen",
+
+
+
         "src": "media/figuren/original-matatabi-bogen.webp"
+
+
+
       }
+
+
+
     ]
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Sasuke und Taka gegen Killer B",
+
+
+
     "caption": "Im Unraikyō springt die Spielfigur Sasuke zur Seite. Suigetsu, Jūgo und Karin kämpfen mit ihnen gegen Killer B.",
+
+
+
     "src": "media/figuren/bee-schwerter.webp"
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Taka vor Gyūki",
+
+
+
     "caption": "Killer B nimmt im Kampf gegen Sasuke und seine Gefährten die Gestalt des Achtschwänzigen an.",
+
+
+
     "src": "media/figuren/bee-gyuki.webp"
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Sasukes Amaterasu",
+
+
+
     "caption": "In der letzten Kampfphase umhüllen Sasukes schwarze Flammen Gyūki. Das erste Aufeinandertreffen im Unraikyō gehört zu Kapitel 8.",
+
+
+
     "src": "media/figuren/bee-amaterasu.webp"
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Vertraute Geister",
+
+
+
     "src": "media/figuren/geist-vertrag.webp",
+
+
+
     "caption": "Die fünf wählbaren Vertragstiere bei Itachi und Kakuzu."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Weitere Beschwörungen",
+
+
+
     "src": "media/figuren/geist-gegner.webp",
+
+
+
     "caption": "Weitere Beschwörungen von Gegnern und anderen Shinobi."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Hayabane · Formen",
+
+
+
     "src": "media/figuren/geist-kraehe.webp",
+
+
+
     "caption": "Krähe. Verschiedene gezeichnete Fassungen aus dem Spielbestand. Für Wasser, Wind und Erde ist die verstärkte Form eingefärbt."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Tamazusa · Formen",
+
+
+
     "src": "media/figuren/geist-katze.webp",
+
+
+
     "caption": "Katze. Verschiedene gezeichnete Fassungen aus dem Spielbestand. Für Wasser, Wind und Erde ist die verstärkte Form eingefärbt."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Kurogiba · Formen",
+
+
+
     "src": "media/figuren/geist-wolf.webp",
+
+
+
     "caption": "Wolf. Verschiedene gezeichnete Fassungen aus dem Spielbestand. Für Wasser, Wind und Erde ist die verstärkte Form eingefärbt."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Hyōga · Formen",
+
+
+
     "src": "media/figuren/geist-wolf_weiss.webp",
+
+
+
     "caption": "Weißer Wolf. Verschiedene gezeichnete Fassungen aus dem Spielbestand. Für Wasser, Wind und Erde ist die verstärkte Form eingefärbt."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Hakuroku · Formen",
+
+
+
     "src": "media/figuren/geist-hirsch.webp",
+
+
+
     "caption": "Hirsch. Verschiedene gezeichnete Fassungen aus dem Spielbestand. Für Wasser, Wind und Erde ist die verstärkte Form eingefärbt."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Riesenschlange · Formen",
+
+
+
     "src": "media/figuren/geist-schlange.webp",
+
+
+
     "caption": "Schlange. Verschiedene gezeichnete Fassungen aus dem Spielbestand."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Gamabunta · Formen",
+
+
+
     "src": "media/figuren/geist-kroete.webp",
+
+
+
     "caption": "Kröte. Verschiedene gezeichnete Fassungen aus dem Spielbestand."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Katsuyu · Formen",
+
+
+
     "src": "media/figuren/geist-schnecke.webp",
+
+
+
     "caption": "Schnecke. Verschiedene gezeichnete Fassungen aus dem Spielbestand."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Pakkun · Formen",
+
+
+
     "src": "media/figuren/geist-ninken.webp",
+
+
+
     "caption": "Ninken. Verschiedene gezeichnete Fassungen aus dem Spielbestand."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Bijū & Geister",
+
+
+
     "title": "Hai · Formen",
+
+
+
     "src": "media/figuren/geist-hai.webp",
+
+
+
     "caption": "Hai. Verschiedene gezeichnete Fassungen aus dem Spielbestand."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Feste",
+
+
+
     "title": "Festplatz in Konoha am Abend",
+
+
+
     "src": "media/figuren/fest-konoha-abend.webp",
+
+
+
     "caption": "Laternen Ã¼ber dem Platz, StÃ¤nde und GÃ¤ste nach Feierabend."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Feste",
+
+
+
     "title": "Festplatz in Tanzaku am Abend",
+
+
+
     "src": "media/figuren/fest-tanzaku-abend.webp",
+
+
+
     "caption": "Rotes Herbstlaub, Laternen und Feuerwerksfest."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Feste",
+
+
+
     "title": "Laternenfest am Badehaus",
+
+
+
     "src": "media/figuren/fest-onsen-abend.webp",
+
+
+
     "caption": "Im Land des HeiÃŸwassers feiert man vor dem Badehaus."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Feste",
+
+
+
     "title": "Festplatz in Kumogakure",
+
+
+
     "src": "media/figuren/fest-kumo-tag.webp",
+
+
+
     "caption": "StÃ¤nde hoch in den Bergen, mittags im Land der Blitze."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Neuerungen",
-    "title": "Neues Hauptmenü",
-    "src": "media/figuren/neu-hauptmenue.webp",
-    "caption": "Fortsetzen, Neues Spiel, Koop und das neue Minispiele-Menü."
-  },
-  {
-    "category": "Neuerungen",
-    "title": "Minispiele-Menü",
-    "src": "media/figuren/neu-minispiele.webp",
-    "caption": "Jahrmarkt-Spiele, Festtagsspiele, Training und Welt mit eigener Bestenliste."
-  },
-  {
-    "category": "Neuerungen",
+
+
+
     "title": "Weltkarte Feuer 2",
+
+
+
     "src": "media/figuren/neu-welt-feuer-2.webp",
+
+
+
     "caption": "Wiesen und Klippen im Land des Feuers."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Neuerungen",
+
+
+
     "title": "Weltkarte Wasser",
+
+
+
     "src": "media/figuren/neu-welt-wasser.webp",
+
+
+
     "caption": "Nebel zieht vom Meer herein."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Neuerungen",
+
+
+
     "title": "Neu gezeichnet · Krater",
+
+
+
     "src": "media/figuren/neu-ort-krater.webp",
+
+
+
     "caption": "56 Orte sind neu gezeichnet, darunter der Krater."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Neuerungen",
+
+
+
     "title": "Neu gezeichnet · Laternengasse",
+
+
+
     "src": "media/figuren/neu-ort-laternengasse.webp",
+
+
+
     "caption": "Nasse Gasse im Laternenlicht."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Neuerungen",
+
+
+
     "title": "Neu gezeichnet · Badehaus",
+
+
+
     "src": "media/figuren/neu-ort-onsen.webp",
+
+
+
     "caption": "Ein Badehaus im Land der Heißwasser."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Neuerungen",
+
+
+
     "title": "Neu gezeichnet · Schlangenhalle",
+
+
+
     "src": "media/figuren/neu-ort-schlangenhalle.webp",
+
+
+
     "caption": "Orochimarus Halle mit violettem Licht."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Neuerungen",
+
+
+
     "title": "Neu gezeichnet · Prüfungshalle",
+
+
+
     "src": "media/figuren/neu-ort-pruefungshalle.webp",
+
+
+
     "caption": "Die steinerne Halle der Prüfung."
+
+
+
   },
+
+
+
   {
+
+
+
     "category": "Neuerungen",
+
+
+
     "title": "Neu gezeichnet · Akatsuki-Höhle",
+
+
+
     "src": "media/figuren/neu-ort-akatsuki-hoehle.webp",
+
+
+
     "caption": "Das Lager der Akatsuki in der großen Höhle."
-  }
+
+
+
+  },
+
+{
+    "category": "Dorfbewohner",
+    "title": "Dorfbewohner · 1",
+    "src": "media/figuren/dorfbewohner-aktuell-1.webp",
+    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
+},
+
+{
+    "category": "Dorfbewohner",
+    "title": "Dorfbewohner · 2",
+    "src": "media/figuren/dorfbewohner-aktuell-2.webp",
+    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
+},
+
+{
+    "category": "Dorfbewohner",
+    "title": "Dorfbewohner · 3",
+    "src": "media/figuren/dorfbewohner-aktuell-3.webp",
+    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
+},
+
+{
+    "category": "Dorfbewohner",
+    "title": "Dorfbewohner · 4",
+    "src": "media/figuren/dorfbewohner-aktuell-4.webp",
+    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
+},
+
+{
+    "category": "Dorfbewohner",
+    "title": "Dorfbewohner · 5",
+    "src": "media/figuren/dorfbewohner-aktuell-5.webp",
+    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
+},
+
+{
+    "category": "Dorfbewohner",
+    "title": "Dorfbewohner · 6",
+    "src": "media/figuren/dorfbewohner-aktuell-6.webp",
+    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
+},
+
+{
+    "category": "Dorfbewohner",
+    "title": "Dorfbewohner · 7",
+    "src": "media/figuren/dorfbewohner-aktuell-7.webp",
+    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
+},
+
+{
+    "category": "Dorfbewohner",
+    "title": "Dorfbewohner · 8",
+    "src": "media/figuren/dorfbewohner-aktuell-8.webp",
+    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
+},
+
+{
+    "category": "Dorfbewohner",
+    "title": "Dorf-Ninjas · 1",
+    "src": "media/figuren/dorfninjas-aktuell-1.webp",
+    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
+},
+
+{
+    "category": "Dorfbewohner",
+    "title": "Dorf-Ninjas · 2",
+    "src": "media/figuren/dorfninjas-aktuell-2.webp",
+    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
+},
+
+{
+    "category": "Dorfbewohner",
+    "title": "Dorf-Ninjas · 3",
+    "src": "media/figuren/dorfninjas-aktuell-3.webp",
+    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
+},
+
+{
+    "category": "Dorfbewohner",
+    "title": "Dorf-Ninjas · 4",
+    "src": "media/figuren/dorfninjas-aktuell-4.webp",
+    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
+},
+{
+    "category": "Bauernhöfe",
+    "title": "Bauernhof · Land des Feuers · 1",
+    "caption": "Aktuelle Hofansicht aus dem Spielrenderer; kontrollierte Kameraposition.",
+    "src": "media/figuren/hof-welt-feuer-1.webp"
+},
+{
+    "category": "Bauernhöfe",
+    "title": "Bauernhof · Land des Windes · 1 · weitere Ansicht",
+    "caption": "Aktuelle Hofansicht aus dem Spielrenderer; kontrollierte Kameraposition.",
+    "src": "media/figuren/hof-welt-wind-1-andere.webp"
+},
+{
+    "category": "Bauernhöfe",
+    "title": "Bauernhof · Land der Erde · 1",
+    "caption": "Aktuelle Hofansicht aus dem Spielrenderer; kontrollierte Kameraposition.",
+    "src": "media/figuren/hof-welt-erde-1.webp"
+},
+{
+    "category": "Bauernhöfe",
+    "title": "Bauernhof · Land der Blitze · 1",
+    "caption": "Aktuelle Hofansicht aus dem Spielrenderer; kontrollierte Kameraposition.",
+    "src": "media/figuren/hof-welt-blitz-1.webp"
+},
+{
+    "category": "Bauernhöfe",
+    "title": "Bauernhof · Land des Wassers · 1",
+    "caption": "Aktuelle Hofansicht aus dem Spielrenderer; kontrollierte Kameraposition.",
+    "src": "media/figuren/hof-welt-wasser-1.webp"
+}
 ]
+
+
+
