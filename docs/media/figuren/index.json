@@ -1719,25 +1719,7 @@
     "category": "Akatsuki",
     "title": "Akatsuki",
     "src": "media/figuren/akatsuki.webp",
-    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
-},
-
-
-
-  {
-    "category": "Akatsuki",
-    "title": "Nagato, Konan und Pains Körper",
-    "src": "media/figuren/akatsuki-ame.webp",
-    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
-},
-
-
-
-  {
-    "category": "Akatsuki",
-    "title": "Weitere Erscheinungsformen",
-    "src": "media/figuren/akatsuki-varianten.webp",
-    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
+    "caption": "Ausgewählte aktuelle Spielposen; Taka und Pains Körper gesondert."
 },
 
 
@@ -1763,96 +1745,6 @@
 
 
   },
-
-
-
-  {
-    "category": "Kanon-Figuren",
-    "title": "Die Teams aus Konoha",
-    "src": "media/figuren/blatt-1.webp",
-    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
-},
-
-
-
-  {
-    "category": "Kanon-Figuren",
-    "title": "Die Teams aus Konoha · Gefährten",
-    "src": "media/figuren/blatt-2.webp",
-    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
-},
-
-
-
-  {
-    "category": "Kanon-Figuren",
-    "title": "Aufklärung und Lehrmeister",
-    "src": "media/figuren/blatt-3.webp",
-    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
-},
-
-
-
-  {
-    "category": "Kanon-Figuren",
-    "title": "Hokage und Sannin",
-    "src": "media/figuren/hokage.webp",
-    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
-},
-
-
-
-  {
-    "category": "Kanon-Figuren",
-    "title": "Der Sand und die Nebeldörfer",
-    "src": "media/figuren/anker.webp",
-    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
-},
-
-
-
-  {
-    "category": "Kanon-Figuren",
-    "title": "Das Land der Blitze",
-    "src": "media/figuren/blitz.webp",
-    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
-},
-
-
-
-  {
-    "category": "Kanon-Figuren",
-    "title": "Stein, Regen und Eisen",
-    "src": "media/figuren/erde.webp",
-    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
-},
-
-
-
-  {
-    "category": "Kanon-Figuren",
-    "title": "Oto und der Untergrund",
-    "src": "media/figuren/oto.webp",
-    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
-},
-
-
-
-  {
-    "category": "Kanon-Figuren",
-    "title": "Ne, Spitzel und Kontaktleute",
-    "src": "media/figuren/ne.webp",
-    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
-},
-
-
-
-  {
-    "category": "Kanon-Figuren",
-    "title": "Bewohner aus der Geschichte",
-    "src": "media/figuren/wellen.webp",
-    "caption": "Aktuelle HD-Spielquellen: Welt und Kampf; unterschiedliche Formen gesondert."
-},
 
 
 
@@ -3331,89 +3223,6 @@
   },
 
 {
-    "category": "Dorfbewohner",
-    "title": "Dorfbewohner · 1",
-    "src": "media/figuren/dorfbewohner-aktuell-1.webp",
-    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
-},
-
-{
-    "category": "Dorfbewohner",
-    "title": "Dorfbewohner · 2",
-    "src": "media/figuren/dorfbewohner-aktuell-2.webp",
-    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
-},
-
-{
-    "category": "Dorfbewohner",
-    "title": "Dorfbewohner · 3",
-    "src": "media/figuren/dorfbewohner-aktuell-3.webp",
-    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
-},
-
-{
-    "category": "Dorfbewohner",
-    "title": "Dorfbewohner · 4",
-    "src": "media/figuren/dorfbewohner-aktuell-4.webp",
-    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
-},
-
-{
-    "category": "Dorfbewohner",
-    "title": "Dorfbewohner · 5",
-    "src": "media/figuren/dorfbewohner-aktuell-5.webp",
-    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
-},
-
-{
-    "category": "Dorfbewohner",
-    "title": "Dorfbewohner · 6",
-    "src": "media/figuren/dorfbewohner-aktuell-6.webp",
-    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
-},
-
-{
-    "category": "Dorfbewohner",
-    "title": "Dorfbewohner · 7",
-    "src": "media/figuren/dorfbewohner-aktuell-7.webp",
-    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
-},
-
-{
-    "category": "Dorfbewohner",
-    "title": "Dorfbewohner · 8",
-    "src": "media/figuren/dorfbewohner-aktuell-8.webp",
-    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
-},
-
-{
-    "category": "Dorfbewohner",
-    "title": "Dorf-Ninjas · 1",
-    "src": "media/figuren/dorfninjas-aktuell-1.webp",
-    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
-},
-
-{
-    "category": "Dorfbewohner",
-    "title": "Dorf-Ninjas · 2",
-    "src": "media/figuren/dorfninjas-aktuell-2.webp",
-    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
-},
-
-{
-    "category": "Dorfbewohner",
-    "title": "Dorf-Ninjas · 3",
-    "src": "media/figuren/dorfninjas-aktuell-3.webp",
-    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
-},
-
-{
-    "category": "Dorfbewohner",
-    "title": "Dorf-Ninjas · 4",
-    "src": "media/figuren/dorfninjas-aktuell-4.webp",
-    "caption": "Aktuell im Spiel zugeordnete Figuren, keine alten Ersatzsprites."
-},
-{
     "category": "Bauernhöfe",
     "title": "Bauernhof · Land des Feuers · 1",
     "caption": "Aktuelle Hofansicht aus dem Spielrenderer; kontrollierte Kameraposition.",
@@ -3442,6 +3251,30 @@
     "title": "Bauernhof · Land des Wassers · 1",
     "caption": "Aktuelle Hofansicht aus dem Spielrenderer; kontrollierte Kameraposition.",
     "src": "media/figuren/hof-welt-wasser-1.webp"
+},
+{
+    "category": "Kanon-Figuren",
+    "title": "Bekannte Shinobi",
+    "src": "media/figuren/kanon-auswahl.webp",
+    "caption": "16 ausgewählte Kanonfiguren aus den aktuellen Spielquellen."
+},
+{
+    "category": "Akatsuki",
+    "title": "Die sechs Körper Pains",
+    "src": "media/figuren/pain-koerper.webp",
+    "caption": "Aktuelle Weltposen der sechs Körper."
+},
+{
+    "category": "Dorfleben",
+    "title": "Bewohner der Dörfer",
+    "src": "media/figuren/dorfleben-auswahl.webp",
+    "caption": "Kleine Auswahl von acht aktuell zugeordneten Dorffiguren."
+},
+{
+    "category": "Dorfleben",
+    "title": "Ninjas der Dörfer",
+    "src": "media/figuren/dorfninjas-auswahl.webp",
+    "caption": "Kleine Auswahl von acht aktuell zugeordneten Dorffiguren."
 }
 ]
 
