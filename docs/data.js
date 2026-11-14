@@ -1,12 +1,12 @@
 // Erzeugt mit tools/website_daten.py
 window.NAC_SITE = {
   "apkUrl": "https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-android-20261110-204351/AkatsukiChronicles.apk",
-  "releaseUrl": "https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases/tag/nac-android-20261110-204351-r3",
-  "version": "20261110-204351:3",
+  "releaseUrl": "https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases/tag/nac-android-20261110-204351-r7",
+  "version": "20261110-204351:7",
   "baseId": "nac-android-20261110-204351",
-  "revision": 3,
+  "revision": 7,
   "apkBytes": 2227446051,
-  "patchBytes": 678130252,
+  "patchBytes": 596271168,
   "apkExtern": true,
   "apkSha256": "5ad521d12f06d8badf95f65756267dedbea5368abeca2a6f5e1b49c9c0ade1df",
   "roadmap": [
