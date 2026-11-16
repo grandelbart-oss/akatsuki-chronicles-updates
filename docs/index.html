@@ -66,7 +66,8 @@
 })();
 // Trailer-Umschalter: Knopf 1 / 2 / 3 über dem Trailer. Der gewählte Knopf leuchtet, die anderen sind ausgegraut.
 (function(){
-  var v=document.querySelector('video.trailer'), bar=document.querySelector('.trailer-switch');
+  // 17.11.2026: nicht den APK/PC-Umschalter erwischen (gleiche Klasse, steht weiter oben) – sonst gingen Trailer 2/3 nicht auf.
+  var v=document.querySelector('video.trailer'), bar=document.querySelector('.trailer-switch:not(.platform-switch)');
   if(!v||!bar)return;
   bar.addEventListener('click',function(e){
     var b=e.target.closest('button[data-src]'); if(!b||b.getAttribute('aria-pressed')==='true')return;
