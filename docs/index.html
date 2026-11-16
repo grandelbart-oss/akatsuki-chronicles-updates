@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#141319">
-<meta name="description" content="Akatsuki Chronicles: Naruto-Fan-RPG für Android aus Sicht der Akatsuki. 12 Kapitel, rund 50 Stunden, Bosse mit Phasen, alle neun Bijū, Koop zu zweit. Kostenlose Testfassung.">
-<title>Akatsuki Chronicles · Android-Fanprojekt</title>
+<meta name="description" content="Akatsuki Chronicles: Naruto-Fan-RPG für Android und PC aus Sicht der Akatsuki. 12 Kapitel, rund 50 Stunden, Bosse mit Phasen, alle neun Bijū, Koop zu zweit. Kostenlose Testfassung.">
+<title>Akatsuki Chronicles · Fanprojekt für Android und PC</title>
 <link rel="icon" href="./assets/app.webp">
 <link rel="stylesheet" href="./style.css">
 <script defer src="./data.js"></script>
@@ -38,10 +38,13 @@
   <div class="hero-art" aria-hidden="true"></div>
   <div class="party" aria-hidden="true"><img src="./assets/itachi.webp" alt=""><img src="./assets/kisame.webp" alt=""></div>
   <div class="hero-inner wrap">
-   <p class="eyebrow"><span class="diamond"></span> Android · Story-RPG</p>
+   <p class="eyebrow"><span class="diamond"></span> Android · PC · Story-RPG</p>
    <h1 id="game-title"><span>Akatsuki</span><em>Chronicles</em></h1>
    <p class="intro">Trag den Mantel der Akatsuki. Erkunde die Shinobi-Welt, begleite ihre Mitglieder und kämpfe an ihrer Seite.</p>
-   <div class="hero-actions" style="margin-top:16px"><a class="btn primary" id="apk" download="AkatsukiChronicles.apk" href="https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-android-20261110-204351/AkatsukiChronicles.apk"><svg><use href="#drop"/></svg>APK herunterladen</a><a class="text-action" href="#installation">So installierst du das Spiel <span aria-hidden="true">↓</span></a></div>
+   <div class="trailer-switch platform-switch" role="group" aria-label="Fassung wählen" style="margin-top:16px"><button type="button" aria-pressed="true" data-platform="apk">APK</button><button type="button" aria-pressed="false" data-platform="pc">PC</button></div>
+   <div class="hero-actions platform-pc" hidden style="margin-top:8px;flex-wrap:wrap"><a class="btn primary" id="pc" download="AkatsukiChronicles_PC.zip" href="https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-pc-20261116-152839/AkatsukiChronicles_PC.zip"><svg><use href="#drop"/></svg>PC-Fassung herunterladen</a>
+    <p class="apk-note" style="max-width:430px;margin-top:12px;padding:8px 12px;border-left:3px solid var(--gold);background:#111115cc;color:#e2dbcf;font-size:.92rem;line-height:1.45"><strong style="color:var(--gold)">PC-Testfassung:</strong> Für Windows 10/11 (64 Bit). ZIP entpacken und <em>AkatsukiChronicles.exe</em> starten – Godot ist eingebaut, nichts muss installiert werden. Leider gibt es dafür keine automatischen Updates: Diese Fassung ist der letzte Stand, damit auch PC-Spieler das Spiel testen können. Meldet Windows beim ersten Start „Der Computer wurde durch Windows geschützt“: auf <em>Weitere Informationen</em> und dann <em>Trotzdem ausführen</em> klicken.</p></div>
+   <div class="hero-actions platform-apk" style="margin-top:8px"><a class="btn primary" id="apk" download="AkatsukiChronicles.apk" href="https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-android-20261110-204351/AkatsukiChronicles.apk"><svg><use href="#drop"/></svg>APK herunterladen</a><a class="text-action" href="#installation">So installierst du das Spiel <span aria-hidden="true">↓</span></a></div>
    <p class="release-info"><span class="status-dot"></span><span id="version">Android-Testfassung</span><span aria-hidden="true">/</span><a id="release" href="https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases/latest">Versionshinweise <svg><use href="#go"/></svg></a></p>
   </div>
  </section>
@@ -51,6 +54,16 @@
    <div class="trailer-switch" role="group" aria-label="Trailer wählen"><button type="button" aria-pressed="true" data-src="./media/filme/trailer.mp4" data-poster="./media/filme/trailer.webp" data-label="Trailer 1 zu Akatsuki Chronicles">1</button><button type="button" aria-pressed="false" data-src="./media/filme/trailer2.mp4" data-poster="./media/filme/trailer2.webp" data-label="Trailer 2 zu Akatsuki Chronicles">2</button><button type="button" aria-pressed="false" data-src="./media/filme/trailer3.mp4" data-poster="./media/filme/trailer3.webp" data-label="Trailer 3 zu Akatsuki Chronicles">3</button></div>
    <video class="trailer" controls playsinline preload="metadata" poster="./media/filme/trailer.webp" src="./media/filme/trailer.mp4" aria-label="Trailer 1 zu Akatsuki Chronicles"></video>
    <script>
+// Fassungs-Umschalter oben: APK / PC wie die Trailerknöpfe; der gewählte leuchtet, sein Download wird gezeigt.
+(function(){
+  var bar=document.querySelector('.platform-switch'); if(!bar)return;
+  bar.addEventListener('click',function(e){
+    var b=e.target.closest('button[data-platform]'); if(!b||b.getAttribute('aria-pressed')==='true')return;
+    bar.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+    document.querySelector('.platform-apk').hidden=b.dataset.platform!=='apk';
+    document.querySelector('.platform-pc').hidden=b.dataset.platform!=='pc';
+  });
+})();
 // Trailer-Umschalter: Knopf 1 / 2 / 3 über dem Trailer. Der gewählte Knopf leuchtet, die anderen sind ausgegraut.
 (function(){
   var v=document.querySelector('video.trailer'), bar=document.querySelector('.trailer-switch');
@@ -62,7 +75,7 @@
   });
 })();
    </script>
-   <p class="lead">Ein Story-Rollenspiel fürs Handy, erzählt aus Sicht der Akatsuki. Du erwachst verletzt in einer Höhle, Itachi spricht dich an, und ein elfter Ring wartet auf dich. Von Gaaras Entführung bis zum letzten Ring.</p>
+   <p class="lead">Ein Story-Rollenspiel für Handy und PC, erzählt aus Sicht der Akatsuki. Du erwachst verletzt in einer Höhle, Itachi spricht dich an, und ein elfter Ring wartet auf dich. Von Gaaras Entführung bis zum letzten Ring.</p>
    <div class="facts">
     <div><b>12</b><span>Kapitel und Prolog</span></div>
     <div><b>~50 h</b><span>Spielzeit</span></div>
@@ -136,6 +149,7 @@
     <article><span class="guide-mark" aria-hidden="true"><svg><use href="#drop"/></svg></span><h3>Erster Start</h3><p>Lade die Basis-APK (2,23 GB) oben direkt auf dein Android-Gerät. Erforderlich sind Android 7 oder neuer und ARM64-Unterstützung. Warte, bis der Download vollständig ist. Danach die APK in „Dateien/Downloads“ antippen und installieren (ggf. Installation aus dieser Quelle erlauben). Dann das Spiel starten.</p></article>
     <article><span class="guide-mark" aria-hidden="true"><svg><use href="#arrow"/></svg></span><h3>Im Spiel aktualisieren</h3><p>Warte im Hauptmenü auf das Update und lade es dort. Schließe die App vollständig und öffne sie erneut. Im Hauptmenü siehst du den aktiven Stand.</p></article>
     <article><span class="guide-mark" aria-hidden="true"><svg><use href="#map-icon"/></svg></span><h3>Wann die volle APK nötig ist</h3><p>Meldet das Spiel, dass eine neue Basis gebraucht wird, oder hat deine alte App noch keinen Updater, lade oben die aktuelle APK. Installiere sie über die vorhandene App und deinstalliere vorher nicht, damit deine Spielstände erhalten bleiben. Spätere Updates lädt das Spiel selbst im Startmenü.</p></article>
+     <article><span class="guide-mark" aria-hidden="true"><svg><use href="#drop"/></svg></span><h3>PC-Fassung</h3><p>Oben auf „PC“ umschalten und die ZIP (2,5 GB) laden. Für Windows 10/11 (64 Bit). ZIP vollständig entpacken und im entpackten Ordner <em>AkatsukiChronicles.exe</em> starten – nicht direkt aus der ZIP heraus. Die PC-Fassung bekommt keine Updates; für einen neueren Stand lädst du später eine neue ZIP.</p></article>
    </div>
   </section>
   <section class="report-panel panel" id="bugreport" aria-labelledby="report-title">
