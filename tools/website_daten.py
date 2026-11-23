@@ -1,4 +1,4 @@
-"""Build public website data from the roadmap and the currently published release."""
+"""Build website data from explicit downloads or the legacy published release."""
 import argparse
 import base64
 import json
@@ -68,7 +68,72 @@ def external_apk(path, base):
     return result
 
 
+def full_content_data(extern):
+    """Explicit Android content delivery; independent of the legacy PC Latest release."""
+    if extern is None or not extern.exists():
+        return None
+    data = json.loads(extern.read_text(encoding="utf-8-sig"))
+    delivery = data.get("delivery")
+    if delivery is None:
+        return None
+    if delivery != "full_content":
+        raise ValueError("apk_extern.json: unbekannte Auslieferungsart")
+    base = data.get("base_id", "")
+    match = re.fullmatch(r"nac-android-r([1-9][0-9]*)-content-([0-9]{8})", base)
+    revision = data.get("revision")
+    if not match or type(revision) is not int or revision != int(match[1]):
+        raise ValueError("apk_extern.json: Android-Basis und Revision passen nicht zusammen")
+
+    def direct_object(record, key, require_hash=True):
+        if not isinstance(record, dict):
+            raise ValueError("apk_extern.json: Downloadmetadaten fehlen")
+        expected = "https://akatsuki-download.smxn-vs-lobby.workers.dev/" + key
+        if record.get("url") != expected:
+            raise ValueError("apk_extern.json: unerwartete versionierte Download-Adresse")
+        size = record.get("bytes")
+        if type(size) is not int or not 0 < size <= 9007199254740991:
+            raise ValueError("apk_extern.json: ungültige Downloadgröße")
+        if require_hash and not re.fullmatch(r"[0-9a-f]{64}", str(record.get("sha256", ""))):
+            raise ValueError("apk_extern.json: SHA-256 fehlt")
+        return record
+
+    apk = direct_object(data, f"{base}/AkatsukiChronicles.apk")
+    content = direct_object(data.get("content"),
+        f"nac-content-r{revision}-{match[2]}/akatsuki-r{revision}-full.pck")
+    pc = data.get("pc", {})
+    pc_base = pc.get("base_id", "") if isinstance(pc, dict) else ""
+    pc_revision = pc.get("revision") if isinstance(pc, dict) else None
+    if (not re.fullmatch(r"nac-android-[0-9]{8}(?:-[0-9]{6})?", pc_base)
+            or type(pc_revision) is not int or pc_revision < 1):
+        raise ValueError("apk_extern.json: PC-Stand fehlt")
+    pc_key = pc_base.replace("nac-android-", "nac-pc-", 1) + "/AkatsukiChronicles_PC.zip"
+    pc = direct_object(pc, pc_key, require_hash=False)
+    return {
+        "apkUrl": apk["url"],
+        "releaseUrl": "#installation",
+        "version": f"{base.removeprefix('nac-android-')}:{revision}",
+        "baseId": base,
+        "revision": revision,
+        "apkBytes": apk["bytes"],
+        "patchBytes": 0,
+        "apkExtern": True,
+        "apkSha256": apk["sha256"],
+        "delivery": "full_content",
+        "contentUrl": content["url"],
+        "contentBytes": content["bytes"],
+        "contentSha256": content["sha256"],
+        "pcUrl": pc["url"],
+        "pcBaseId": pc_base,
+        "pcRevision": pc_revision,
+        "pcBytes": pc["bytes"],
+        "pcReleaseUrl": f"{RELEASES}/tag/{pc_base}-r{pc_revision}",
+    }
+
+
 def published_data(extern=None):
+    configured = full_content_data(extern)
+    if configured is not None:
+        return configured
     latest = fetch_json(f"{API}/latest")
     tag = latest["tag_name"]
     if latest["draft"] or latest["prerelease"]:

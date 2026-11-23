@@ -72,8 +72,25 @@ if (location.hash === "#roadmap") roadmap.open = true;
 
 if (site) {
   document.querySelector("#apk").href = site.apkUrl;
-  document.querySelector("#release").href = site.releaseUrl;
-  document.querySelector("#version").textContent = "Spielstand " + site.version;
+  const releaseLink = document.querySelector("#release");
+  const versionLabel = document.querySelector("#version");
+  const platformSwitch = document.querySelector(".platform-switch");
+  if (site.pcUrl) document.querySelector("#pc").href = site.pcUrl;
+  function showPlatformVersion(platform) {
+    const pc = platform === "pc" && Number.isInteger(site.pcRevision);
+    versionLabel.textContent = pc ? "PC · R" + site.pcRevision
+      : site.delivery === "full_content" ? "Android · R" + site.revision : "Spielstand " + site.version;
+    releaseLink.href = pc ? site.pcReleaseUrl : site.releaseUrl;
+    releaseLink.firstChild.textContent = !pc && site.delivery === "full_content"
+      ? "Installation & Neuerungen " : "Versionshinweise ";
+  }
+  if (platformSwitch) {
+    platformSwitch.addEventListener("click", event => {
+      const button = event.target.closest("button[data-platform]");
+      if (button) showPlatformVersion(button.dataset.platform);
+    });
+  }
+  showPlatformVersion("apk");
   const target = document.querySelector("#milestones");
   if (Array.isArray(site.roadmap) && site.roadmap.length) {
     target.replaceChildren();

@@ -1,33 +1,39 @@
 # Naruto: Akatsuki Chronicles – Testversionen
 
-[Spielseite mit Download, Roadmap und Bug Report](https://grandelbart-oss.github.io/akatsuki-chronicles-updates/)
+[Spielseite mit Download, Roadmap und Bugreport](https://akatsuki-chronicles.de/)
 
-Öffentlicher Downloadbereich für die Android-Testfassung.
+## Android · R12
 
-## Installation
+**[AkatsukiChronicles.apk herunterladen](https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-android-r12-content-20261123/AkatsukiChronicles.apk)** · **72,67 MB** (72.671.825 Bytes), Android 7 oder neuer und ARM64.
 
-**[Aktuelle AkatsukiChronicles.apk direkt herunterladen](https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-android-20261110-204351/AkatsukiChronicles.apk)** · 2.227.446.051 Bytes (2,23 GB), Android 7 oder neuer und ARM64. Die vollständige APK vom 10.11.2026 wird direkt über Cloudflare ausgeliefert. Warte auf den vollständigen Download, tippe die APK danach in „Dateien/Downloads“ an und installiere sie (ggf. Installation aus dieser Quelle erlauben). Wer seine Spielstände behalten will, installiert die neue APK über die alte (nicht vorher deinstallieren).
+1. Lade die APK vollständig herunter. Tippe sie in „Dateien/Downloads“ an und installiere sie; falls nötig, erlaube die Installation aus dieser Quelle.
+2. Öffne die App. Beim ersten Start lädt sie automatisch **4,62 GB Spieldaten** (4.622.261.492 Bytes). Verwende dafür möglichst WLAN. Der Download lässt sich pausieren und fortsetzen.
+3. Nach dem vollständigen Download und der Dateiprüfung startet das Spiel. Danach kannst du auch offline spielen.
 
-SHA-256 der Basis-APK: `5ad521d12f06d8badf95f65756267dedbea5368abeca2a6f5e1b49c9c0ade1df`. Die [vorherige Basis vom 08.11.2026](https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-android-20261108-113924/AkatsukiChronicles.apk) bleibt erhalten.
+Die Bilder behalten ihre bisherige Auflösung und Qualität. Die kleine APK enthält den Start und den Downloader; die vollständigen Spieldaten werden einmal separat geladen.
 
-1. Die APK einmal über die vorhandene App installieren. **Vorher nicht deinstallieren**, damit Spielstände erhalten bleiben.
-2. Die App starten und im Hauptmenü kurz auf die Update-Prüfung warten.
-3. Ein angebotenes Update herunterladen. Anschließend die App vollständig beenden und neu öffnen.
+Installiere die neue APK über eine vorhandene App und deinstalliere sie vorher nicht. Die Übernahme älterer Spielstände ist noch nicht auf einem physischen Android-Gerät geprüft; ein neuer Spielstart kann nötig sein. Weitere passende Updates werden im Hauptmenü angeboten.
 
-Die aktuelle Basis-App gehört zu **20261110-204351**; die aktuelle Revision und Paketgröße stehen auf der [Spielseite](https://akatsuki-chronicles.de/). Zwischenversionen müssen nicht einzeln installiert werden. Spätere Downloads richten sich nach den tatsächlich geänderten Dateien.
+SHA-256 der APK: `5a33ce90cabf37b89e289eedb7d424003b0a72306ece5c2daf127574eabf4222`.
 
-Für Android die **APK** wählen. `update.pck` und `manifest.json` verwendet die App; sie werden nicht separat installiert. Ein GitHub-Konto ist für die Downloads nicht erforderlich.
+Die bisherigen Basis-Downloads vom [10.11.2026](https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-android-20261110-204351/AkatsukiChronicles.apk) und [08.11.2026](https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-android-20261108-113924/AkatsukiChronicles.apk) bleiben erhalten. Ein GitHub-Konto ist für den Download nicht erforderlich. Spieldaten und Manifest werden von der App verwaltet und nicht von Hand installiert.
 
-## Spätere Änderungen
+## PC · R11
 
-Passende Spieländerungen kommen über die Update-Funktion. Benötigt eine Änderung eine neue technische Grundlage, bietet die App den Wechsel auf eine neue Basis-App an. Die jeweils passende APK wird hier verlinkt.
+**[Bestehende Windows-Fassung herunterladen](https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-pc-20261110-204351/AkatsukiChronicles_PC.zip)** · 2,22 GB (2.221.339.425 Bytes), Windows 10/11 mit 64 Bit.
 
-Bei fehlender Verbindung bleibt der installierte Stand spielbar. Ein fehlgeschlagener Download ersetzt kein funktionierendes Paket. Vor einer Paketübernahme werden die vorhandenen JSON-Spielstände und Einstellungen lokal gesichert.
+Entpacke die ZIP vollständig und starte `AkatsukiChronicles.exe` im entpackten Ordner. Das Hauptmenü bietet die passenden Updates für diese PC-Fassung an. Der veröffentlichte PC-Stand bleibt **R11**; der neue Android-Download enthält R12.
+
+[Versionshinweise zu PC R11](https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases/tag/nac-android-20261110-204351-r11)
 
 ## Prüfstand
 
-Für die vollständige Basis vom 10.11.2026 wurden die aktuellen Änderungen gezielt geprüft. Paketstruktur, sämtliche ZIP-Dateiinhalte, Android-Paketsignatur und der Bezug zur Bauquelle wurden kontrolliert. Die aus genau dieser APK gewonnenen Spieldaten starteten in einer gepackten Windows-Release-Laufzeit; die Aktivierung signierter Updates bis zum echten Hauptmenü und die Übernahme eines älteren Testspielstands wurden geprüft. Der vollständige Cloudflare-Download einschließlich Fortsetzen und Dateiprüfsumme wurde mit der gelieferten APK verglichen.
+APK-Struktur und Signatur sowie der vollständige Inhalt wurden lokal geprüft. Die Downloadprüfungen decken Erstdownload, Pause/Fortsetzen, abweichende Serverantworten, ungültige Signaturen und Prüfsummen sowie einen echten fortgesetzten Transfer jenseits von 4 GiB ab. Der vollständige Spielinhalt wurde bis zum Hauptmenü geladen und anhand tatsächlicher Texturen geprüft. Auch der Start mit bereits geprüften Daten ohne erneuten Download wurde kontrolliert.
 
-**Der Test auf einem physischen Android-Gerät steht noch aus.** Dies ist keine vollständige Spielabnahme; dokumentierte Inhalts- und Prüfhinweise bleiben in Bearbeitung. Bei einer Fehlermeldung bitte den Stand aus dem Hauptmenü und den Ablauf nennen.
+**Der Test auf einem physischen Android-Gerät steht noch aus.** Die lokale Prüfung ist keine vollständige Spielabnahme. Bei einer Fehlermeldung bitte die Plattform, den Stand aus dem Hauptmenü und den Ablauf nennen.
 
-[Alle veröffentlichten Versionen](https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases)
+## Website-Daten
+
+`docs/apk_extern.json` führt die Android-APK, den automatischen Inhaltsdownload und die PC-Version getrennt. Im Modus `full_content` verwendet `tools/website_daten.py` diese ausdrücklich eingetragenen Versionen. Der bestehende GitHub-Latest-Endpunkt bleibt bei R11 für die bisherige PC-/Android-Basis; ein Website-Neubau setzt den neuen Android-Download deshalb nicht zurück.
+
+[Alle bisherigen Veröffentlichungen](https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases)
