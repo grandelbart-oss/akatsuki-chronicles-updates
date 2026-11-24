@@ -78,8 +78,32 @@ if (site) {
   if (site.pcUrl) document.querySelector("#pc").href = site.pcUrl;
   function showPlatformVersion(platform) {
     const pc = platform === "pc" && Number.isInteger(site.pcRevision);
-    versionLabel.textContent = pc ? "PC · R" + site.pcRevision
-      : site.delivery === "full_content" ? "Android · R" + site.revision : "Spielstand " + site.version;
+    const platformId = pc ? "pc" : "apk";
+    const baseRevision = pc ? site.pcRevision : site.revision;
+    const update = site.gameplayUpdate;
+    const hasUpdate = update && Number.isInteger(update.revision)
+      && update.revision > baseRevision && update.baseId === (pc ? site.pcBaseId : site.baseId)
+      && Array.isArray(update.platforms) && update.platforms.includes(platformId);
+    versionLabel.textContent = hasUpdate
+      ? (pc ? "PC" : "Android") + " · Basis R" + baseRevision + " · Spielupdate R" + update.revision
+      : pc ? "PC · R" + site.pcRevision
+        : site.delivery === "full_content" ? "Android · R" + site.revision : "Spielstand " + site.version;
+    const updateNote = document.querySelector("#gameplay-update");
+    if (updateNote) {
+      updateNote.hidden = !hasUpdate;
+      if (hasUpdate) {
+        const size = new Intl.NumberFormat("de-DE", {minimumFractionDigits: 2, maximumFractionDigits: 2})
+          .format(update.bytes / 1000000);
+        document.querySelector("#gameplay-update-title").textContent =
+          "Kumulatives Spielupdate R" + update.revision + " · " + size + " MB. ";
+        document.querySelector("#gameplay-update-copy").textContent =
+          "Im Hauptmenü „Update laden“ wählen. Nach dem Download das Spiel vollständig schließen und neu starten. "
+          + "Der Download oben installiert die R" + baseRevision + "-Basis; das Spielupdate wird danach separat geladen. ";
+        const updateLink = document.querySelector("#gameplay-update-release");
+        updateLink.href = update.releaseUrl;
+        updateLink.textContent = "Neuerungen zu R" + update.revision;
+      }
+    }
     releaseLink.href = pc ? site.pcReleaseUrl : site.releaseUrl;
     const installationLink = pc ? site.pcDelivery === "bundled_content" : site.delivery === "full_content";
     releaseLink.firstChild.textContent = installationLink

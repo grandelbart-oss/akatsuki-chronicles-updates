@@ -1,4 +1,4 @@
-"""Build website data from explicit downloads or the legacy published release."""
+"""Build website data from fixed installers and compatible published game updates."""
 import argparse
 import base64
 import json
@@ -69,7 +69,7 @@ def external_apk(path, base):
 
 
 def full_content_data(extern):
-    """Explicit Android content delivery; independent of the legacy PC Latest release."""
+    """Explicit installer/content delivery, independent of cumulative game updates."""
     if extern is None or not extern.exists():
         return None
     data = json.loads(extern.read_text(encoding="utf-8-sig"))
@@ -149,9 +149,80 @@ def full_content_data(extern):
     }
 
 
+def gameplay_update_data(configured, latest):
+    """Describe a compatible patch without changing installer metadata.
+
+    GitHub release/asset metadata is checked here. The release gate and game
+    verify the RSA signature; the website never installs executable data.
+    """
+    if latest.get("draft") or latest.get("prerelease"):
+        raise ValueError("Der aktuelle Release ist noch nicht freigegeben")
+    tag = latest.get("tag_name", "")
+    match = re.fullmatch(
+        r"(nac-android-r[1-9][0-9]*-content-[0-9]{8})-r([1-9][0-9]*)", tag)
+    if not match:
+        return None
+    base, revision = match[1], int(match[2])
+    platforms = [
+        platform for platform, base_key, revision_key in (
+            ("apk", "baseId", "revision"), ("pc", "pcBaseId", "pcRevision"))
+        if configured.get(base_key) == base and revision > configured[revision_key]
+    ]
+    if not platforms:
+        return None
+    release_url = f"{RELEASES}/tag/{tag}"
+    if latest.get("html_url") != release_url:
+        raise ValueError("Spielupdate: unerwartete Release-Adresse")
+    manifest_asset = asset(latest, "manifest.json")
+    if type(manifest_asset["size"]) is not int or manifest_asset["size"] > 65536:
+        raise ValueError("Spielupdate: Manifest ist zu groß")
+    envelope = fetch_json(manifest_asset["browser_download_url"])
+    try:
+        raw = base64.b64decode(envelope["payload"], validate=True)
+        signature = base64.b64decode(envelope["signature"], validate=True)
+        if not raw or len(raw) > 65536 or not signature or len(signature) > 8192:
+            raise ValueError("Ungültige Manifest-Hülle")
+        payload = json.loads(raw)
+    except (KeyError, TypeError, ValueError) as exc:
+        raise ValueError("Spielupdate: ungültige Manifest-Hülle") from exc
+    if not isinstance(payload, dict):
+        raise ValueError("Spielupdate: ungültige Manifestdaten")
+    for key, value in (("schema", 1), ("loader", 1), ("save_schema", 2),
+                       ("coop_protocol", 1), ("revision", revision)):
+        if type(payload.get(key)) is not int or payload[key] != value:
+            raise ValueError(f"Spielupdate: inkompatibles Feld {key}")
+    if (payload.get("base_id") != base
+            or payload.get("engine") != "4.7.2.stable.official.ed1daf0bf"):
+        raise ValueError("Spielupdate: falsche Inhaltsbasis oder Engine")
+    size, digest = payload.get("bytes"), payload.get("sha256")
+    if type(size) is not int or not 0 < size < 2147483648:
+        raise ValueError("Spielupdate: ungültige Paketgröße")
+    if not isinstance(digest, str) or not re.fullmatch(r"[0-9a-f]{64}", digest):
+        raise ValueError("Spielupdate: ungültige SHA-256")
+    patch = asset(latest, "update.pck")
+    if (type(patch["size"]) is not int or size != patch["size"]
+            or payload.get("url") != patch["browser_download_url"]):
+        raise ValueError("Spielupdate: Manifest und veröffentlichtes Paket stimmen nicht überein")
+    if patch.get("digest") not in (None, "", "sha256:" + digest):
+        raise ValueError("Spielupdate: GitHub und Manifest nennen verschiedene Prüfsummen")
+    return {
+        "baseId": base,
+        "revision": revision,
+        "bytes": size,
+        "sha256": digest,
+        "url": patch["browser_download_url"],
+        "releaseUrl": release_url,
+        "platforms": platforms,
+        "cumulative": True,
+    }
+
+
 def published_data(extern=None):
     configured = full_content_data(extern)
     if configured is not None:
+        update = gameplay_update_data(configured, fetch_json(f"{API}/latest"))
+        if update is not None:
+            configured["gameplayUpdate"] = update
         return configured
     latest = fetch_json(f"{API}/latest")
     tag = latest["tag_name"]

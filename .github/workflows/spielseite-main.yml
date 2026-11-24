@@ -38,7 +38,7 @@ jobs:
               : (await github.rest.repos.getLatestRelease({owner: context.repo.owner, repo: context.repo.repo})).data;
             if (release.draft || release.prerelease) throw new Error('Keine öffentliche stabile Version.');
             const tag = release.tag_name;
-            if (!/^nac-android-[0-9]{8}(?:-[0-9]{6})?-r[1-9][0-9]*$/.test(tag)) {
+            if (!/^nac-android-(?:[0-9]{8}(?:-[0-9]{6})?|r[1-9][0-9]*-content-[0-9]{8})-r[1-9][0-9]*$/.test(tag)) {
               core.notice('Kein Spielrelease; Website bleibt unverändert.');
               return;
             }
