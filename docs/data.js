@@ -13,11 +13,13 @@ window.NAC_SITE = {
   "contentUrl": "https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-content-r12-20261123/akatsuki-r12-full.pck",
   "contentBytes": 4622261492,
   "contentSha256": "df14b98a6c5ebe11e63bdf9e7e2a3be58eab18f166b6bab8bf89c32efaa9d7d4",
-  "pcUrl": "https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-pc-20261110-204351/AkatsukiChronicles_PC.zip",
-  "pcBaseId": "nac-android-20261110-204351",
-  "pcRevision": 11,
-  "pcBytes": 2221339425,
-  "pcReleaseUrl": "https://github.com/grandelbart-oss/akatsuki-chronicles-updates/releases/tag/nac-android-20261110-204351-r11",
+  "pcUrl": "https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-pc-20261124-083548/AkatsukiChronicles_PC.zip",
+  "pcBaseId": "nac-android-r12-content-20261123",
+  "pcRevision": 12,
+  "pcBytes": 4669611259,
+  "pcSha256": "1a3685653dfc9b4094314feefc95c7d7e9acff1b3e5da28a45a838228ff0b328",
+  "pcDelivery": "bundled_content",
+  "pcReleaseUrl": "#pc-installation",
   "roadmap": [
     {
       "status": "Im Test",

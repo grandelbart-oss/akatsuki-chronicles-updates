@@ -103,11 +103,28 @@ def full_content_data(extern):
     pc = data.get("pc", {})
     pc_base = pc.get("base_id", "") if isinstance(pc, dict) else ""
     pc_revision = pc.get("revision") if isinstance(pc, dict) else None
-    if (not re.fullmatch(r"nac-android-[0-9]{8}(?:-[0-9]{6})?", pc_base)
-            or type(pc_revision) is not int or pc_revision < 1):
+    if type(pc_revision) is not int or pc_revision < 1:
         raise ValueError("apk_extern.json: PC-Stand fehlt")
-    pc_key = pc_base.replace("nac-android-", "nac-pc-", 1) + "/AkatsukiChronicles_PC.zip"
-    pc = direct_object(pc, pc_key, require_hash=False)
+    pc_delivery = pc.get("delivery", "legacy")
+    if pc_delivery == "bundled_content":
+        content_base = re.fullmatch(r"nac-android-r([1-9][0-9]*)-content-([0-9]{8})", pc_base)
+        if not content_base or pc_revision < int(content_base[1]):
+            raise ValueError("apk_extern.json: ungültige PC-Inhaltsbasis")
+        pc_key = pc.get("key", "")
+        if not re.fullmatch(r"nac-pc-[0-9]{8}-[0-9]{6}/AkatsukiChronicles_PC\.zip", pc_key):
+            raise ValueError("apk_extern.json: ungültiger PC-Paketkey")
+        pc = direct_object(pc, pc_key)
+        pc_release_url = pc.get("release_url")
+        if pc_release_url != "#pc-installation":
+            raise ValueError("apk_extern.json: PC-Installationslink fehlt")
+    elif pc_delivery == "legacy":
+        if not re.fullmatch(r"nac-android-[0-9]{8}(?:-[0-9]{6})?", pc_base):
+            raise ValueError("apk_extern.json: PC-Stand fehlt")
+        pc_key = pc_base.replace("nac-android-", "nac-pc-", 1) + "/AkatsukiChronicles_PC.zip"
+        pc = direct_object(pc, pc_key, require_hash=False)
+        pc_release_url = f"{RELEASES}/tag/{pc_base}-r{pc_revision}"
+    else:
+        raise ValueError("apk_extern.json: unbekannte PC-Auslieferungsart")
     return {
         "apkUrl": apk["url"],
         "releaseUrl": "#installation",
@@ -126,7 +143,9 @@ def full_content_data(extern):
         "pcBaseId": pc_base,
         "pcRevision": pc_revision,
         "pcBytes": pc["bytes"],
-        "pcReleaseUrl": f"{RELEASES}/tag/{pc_base}-r{pc_revision}",
+        "pcSha256": pc.get("sha256", ""),
+        "pcDelivery": pc_delivery,
+        "pcReleaseUrl": pc_release_url,
     }
 
 
@@ -193,8 +212,8 @@ def main():
     data["roadmap"] = rows
     args.output.parent.mkdir(parents=True, exist_ok=True)
     pending = args.output.with_suffix(".js.tmp")
-    pending.write_text("// Erzeugt mit tools/website_daten.py\nwindow.NAC_SITE = "
-                       + json.dumps(data, indent=2, ensure_ascii=False) + ";\n", encoding="utf-8")
+    pending.write_bytes(("// Erzeugt mit tools/website_daten.py\nwindow.NAC_SITE = "
+                         + json.dumps(data, indent=2, ensure_ascii=False) + ";\n").encode("utf-8"))
     pending.replace(args.output)
     print(f"{data['version']} · {len(rows)} Roadmap-Einträge · {args.output}")
 

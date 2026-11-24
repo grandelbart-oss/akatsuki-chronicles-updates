@@ -81,7 +81,8 @@ if (site) {
     versionLabel.textContent = pc ? "PC · R" + site.pcRevision
       : site.delivery === "full_content" ? "Android · R" + site.revision : "Spielstand " + site.version;
     releaseLink.href = pc ? site.pcReleaseUrl : site.releaseUrl;
-    releaseLink.firstChild.textContent = !pc && site.delivery === "full_content"
+    const installationLink = pc ? site.pcDelivery === "bundled_content" : site.delivery === "full_content";
+    releaseLink.firstChild.textContent = installationLink
       ? "Installation & Neuerungen " : "Versionshinweise ";
   }
   if (platformSwitch) {
@@ -91,6 +92,10 @@ if (site) {
     });
   }
   showPlatformVersion("apk");
+  if (new URLSearchParams(location.search).get("platform") === "pc") {
+    const pcButton = platformSwitch?.querySelector('button[data-platform="pc"]');
+    if (pcButton) pcButton.click();
+  }
   const target = document.querySelector("#milestones");
   if (Array.isArray(site.roadmap) && site.roadmap.length) {
     target.replaceChildren();
