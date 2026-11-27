@@ -12,12 +12,12 @@
   },
   "pc": {
     "delivery": "bundled_content",
-    "key": "nac-pc-20261124-083548/AkatsukiChronicles_PC.zip",
-    "url": "https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-pc-20261124-083548/AkatsukiChronicles_PC.zip",
-    "base_id": "nac-android-r12-content-20261123",
-    "revision": 12,
-    "bytes": 4669611259,
-    "sha256": "1a3685653dfc9b4094314feefc95c7d7e9acff1b3e5da28a45a838228ff0b328",
+    "key": "nac-pc-20261127-151538/AkatsukiChronicles_PC.zip",
+    "url": "https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-pc-20261127-151538/AkatsukiChronicles_PC.zip",
+    "base_id": "nac-android-r16-content-20261127",
+    "revision": 16,
+    "bytes": 5826970433,
+    "sha256": "18700b44d257309d6eb10ec5364e5c64ca84d72388f9b19dd4d5e65670b4086d",
     "release_url": "#pc-installation"
   }
 }
