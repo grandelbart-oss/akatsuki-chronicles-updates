@@ -51,3 +51,8 @@ dialog{width:min(490px,calc(100% - 30px));max-height:calc(100dvh - 24px);padding
 .trailer-switch button[aria-pressed=true]{color:#221c13;background:#ddc28e;border-color:#f1dbac;box-shadow:0 0 14px #d6b67899,0 0 3px #f1dbac}
 .trailer-switch button[aria-pressed=false]:hover{color:var(--gold);border-color:var(--gold)}
 .platform-switch button{width:auto;min-width:64px;padding:0 16px;border-radius:22px}.hero-actions[hidden]{display:none}
+
+/* Itachi und Kisame in HD (Bild aus dem Spiel-Hauptmenü), zur Abendsonne gedreht, Schatten im Winkel des Hintergrundbilds (27.11.2026) */
+.party img.duo{height:clamp(196px,23.7vw,349px);margin-bottom:calc(-.284*clamp(196px,23.7vw,349px));margin-right:calc(-.577*clamp(196px,23.7vw,349px))}
+@media(max-width:760px){.party img.duo{height:209px;margin-bottom:-59px;margin-right:-121px}}
+@media(max-width:450px){.party img.duo{height:141px;margin-bottom:-40px;margin-right:-81px}}
