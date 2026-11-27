@@ -1,14 +1,14 @@
 {
   "delivery": "full_content",
-  "url": "https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-android-r12-content-20261123/AkatsukiChronicles.apk",
-  "base_id": "nac-android-r12-content-20261123",
-  "revision": 12,
-  "sha256": "5a33ce90cabf37b89e289eedb7d424003b0a72306ece5c2daf127574eabf4222",
-  "bytes": 72671825,
+  "url": "https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-android-r16-content-20261127/AkatsukiChronicles.apk",
+  "base_id": "nac-android-r16-content-20261127",
+  "revision": 16,
+  "sha256": "892d098b0b9741973d225c2dee52de5f8c4eadcd64952e0d69f350f5ae05d9e5",
+  "bytes": 72742147,
   "content": {
-    "url": "https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-content-r12-20261123/akatsuki-r12-full.pck",
-    "bytes": 4622261492,
-    "sha256": "df14b98a6c5ebe11e63bdf9e7e2a3be58eab18f166b6bab8bf89c32efaa9d7d4"
+    "url": "https://akatsuki-download.smxn-vs-lobby.workers.dev/nac-content-r16-20261127/akatsuki-r16-full.pck",
+    "bytes": 5782550808,
+    "sha256": "1739d7b50b163ac9968d3af8fffcb5a894b0b70154492cc519c7c5875f4a69e8"
   },
   "pc": {
     "delivery": "bundled_content",
